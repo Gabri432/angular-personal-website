@@ -1,0 +1,51 @@
+#home {
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+    #about-me {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 50%;
+        margin-left: 23%;
+        background-color: white;
+        padding: 2%;
+        border-radius: 5px;
+        font-size: 22px;
+
+        #description {
+            color: grey;
+        }
+
+        h2 {
+            color: #000;
+        }
+    }
+
+    img {
+        width: 250px;
+        height: 310px;
+        border-radius: 5px;
+    }
+
+    #more-me {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 70%;
+        margin-left: 17.5%;
+
+        #passions, #skills {
+            background-color: white;
+            font-size: 22px;
+            border-radius: 5px;
+            padding: 2%;
+            width: 80%;
+            color: grey;
+
+            h2 {
+                color: #000;
+                text-align: center;
+            }
+        }
+    }
+}

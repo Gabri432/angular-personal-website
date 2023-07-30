@@ -1,1 +1,25 @@
-<p>home works!</p>
+<div id="home">
+    <div id="about-me">
+        <div id="image">
+            <img alt="An image of me" src="../../../assets/images/20230527_123005.jpg">
+        </div>
+        <div id="description">
+            <h2>About me</h2>
+            {{englishAboutMe}}
+        </div>
+    </div>
+    <div id="more-me">
+       <div id="passions">
+        <h2>My Passions</h2>
+        <ul *ngFor="let passion of englishPassions">
+            <li>{{passion}}</li>
+        </ul>
+       </div>
+       <div id="skills">
+        <h2>My Skills and Technlogies</h2>
+        <ul *ngFor="let skill of englishSkills">
+            <li>{{skill}}</li>
+        </ul>
+       </div>
+    </div>
+</div>
