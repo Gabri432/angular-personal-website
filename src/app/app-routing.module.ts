@@ -6,6 +6,7 @@ import { MyProjectsComponent } from './routes/my-projects/my-projects.component'
 const routes: Routes = [
   {path: '', component: HomeComponent, title: 'About Gabriele Gatti'},
   {path: 'projects', component: MyProjectsComponent, title: 'My Projects'},
+  {path: '**', component: HomeComponent},
 ];
 
 @NgModule({
