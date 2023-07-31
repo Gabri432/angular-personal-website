@@ -5,19 +5,25 @@
     #about-me {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        width: 50%;
-        margin-left: 23%;
-        background-color: white;
+        width: 74%;
+        margin-left: 11%;
         padding: 2%;
-        border-radius: 5px;
         font-size: 22px;
+        border: 1px solid grey;
 
         #description {
-            color: grey;
+            color: black;
+            margin-right: 23%;
+            margin-left: 5px;
         }
 
         h2 {
-            color: #000;
+            color: black;
+        }
+
+        #image {
+            margin-left: 23%;
+            border-right: 1px solid grey;
         }
     }
 
@@ -25,26 +31,69 @@
         width: 250px;
         height: 310px;
         border-radius: 5px;
+        border: 1px solid grey;
     }
 
     #more-me {
         margin-top: 30px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
         width: 70%;
-        margin-left: 17.5%;
+        margin-left: 15%;
 
-        #passions, #skills {
-            background-color: white;
-            font-size: 22px;
-            border-radius: 5px;
+        #passions, #skills, #languages {
+            font-size: 20px;
             padding: 2%;
-            width: 80%;
-            color: grey;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            text-align: left;
+            margin-top: 15px;
+            border: 1px solid grey;
 
-            h2 {
+            .h2 {
                 color: #000;
                 text-align: center;
+                border-right: 1px solid grey;
+            }
+            p {
+                margin-left: 5px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 899px) {
+    #home {
+        #about-me {
+            display: block;
+
+            #image {
+                border: none;
+                margin: 0;
+                text-align: center;
+            }
+
+            #description {
+                margin-right: 0;
+            }
+        }
+
+        img {
+            width: 200px;
+            height: 248px;
+        }
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    #home {
+        #more-me {
+            display: block;
+
+            #passions, #skills, #languages {
+                display: block;
+
+                .h2 {
+                    border: none;
+                }
             }
         }
     }
