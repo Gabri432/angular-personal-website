@@ -1,50 +1,11 @@
 #home {
     margin-top: 100px;
     margin-bottom: 50px;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
 
-    #about-me {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        width: 74%;
-        margin-left: 11%;
-        padding: 2%;
-        font-size: 22px;
-        border: 1px solid grey;
-
-        #description {
-            color: black;
-            margin-right: 23%;
-            margin-left: 5px;
-        }
-
-        h2 {
-            color: black;
-        }
-
-        a {
-            color: black;
-        }
-
-        #image {
-            margin-left: 23%;
-            border-right: 1px solid grey;
-        }
-    }
-
-    img {
-        width: 250px;
-        height: 310px;
-        border-radius: 5px;
-        border: 1px solid grey;
-    }
-
-    #more-me {
-        margin-top: 30px;
-        text-align: center;
-        width: 70%;
-        margin-left: 15%;
-
-        #passions, #skills, #languages {
+        #about-me, #passions, #skills, #languages {
             font-size: 20px;
             padding: 2%;
             display: grid;
@@ -61,43 +22,20 @@
             p {
                 margin-left: 5px;
             }
-        }
-    }
-}
-@media only screen and (max-width: 899px) {
-    #home {
-        #about-me {
-            display: block;
 
-            #image {
-                border: none;
-                margin: 0;
-                text-align: center;
-            }
-
-            #description {
-                margin-right: 0;
+            a {
+                color: black;
             }
         }
-
-        img {
-            width: 200px;
-            height: 248px;
-        }
-    }
 }
 
 @media only screen and (max-width: 499px) {
     #home {
-        #more-me {
+        #about-me,#passions, #skills, #languages {
             display: block;
 
-            #passions, #skills, #languages {
-                display: block;
-
-                .h2 {
-                    border: none;
-                }
+            .h2 {
+                border: none;
             }
         }
     }
