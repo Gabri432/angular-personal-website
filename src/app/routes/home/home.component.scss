@@ -1,42 +1,49 @@
 #home {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
-    width: 70%;
-    margin-left: 15%;
 
-        #about-me, #passions, #skills, #languages {
-            font-size: 20px;
-            padding: 2%;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
+    #about-me {
+        background-color: black;
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 35px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+
+        #description {
             text-align: left;
-            margin-top: 15px;
-            border: 1px solid grey;
-
-            .h2 {
-                color: #000;
-                text-align: center;
-                border-right: 1px solid grey;
-            }
-            p {
-                margin-left: 5px;
-            }
-
-            a {
-                color: black;
-            }
         }
+
+        a {
+            color: white;
+            margin: 3px;
+        }
+    }
+
+    #more-me {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 60%;
+        margin-left: 20%;
+        p {
+            text-align: left;
+            font-size: 20px;
+        }
+    }
 }
 
 @media only screen and (max-width: 499px) {
     #home {
-        #about-me,#passions, #skills, #languages {
+        #about-me {
             display: block;
+            padding: 2%;
+        }
 
-            .h2 {
-                border: none;
-            }
+        #more-me {
+            width: 80%;
+            margin-left: 10%;
         }
     }
 }
