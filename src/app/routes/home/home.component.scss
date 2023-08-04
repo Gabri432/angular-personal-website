@@ -1,5 +1,4 @@
 #home {
-    margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
 
@@ -8,9 +7,11 @@
         color: white;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        height: 100vh;
         font-size: 35px;
-        padding-top: 5%;
-        padding-bottom: 5%;
+        top: 50%;
+        justify-content: center;
+        align-items: center;
 
         #description {
             text-align: left;
@@ -39,6 +40,7 @@
         #about-me {
             display: block;
             padding: 2%;
+            padding-top: 40%;
         }
 
         #more-me {
