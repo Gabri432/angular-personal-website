@@ -1,1 +1,8 @@
-<p>my-projects works!</p>
+<div id="project-section">
+    <h2>My projects</h2>
+    <div id="project-grid">
+        <div *ngFor="let project of projects">
+            <app-project-displayer [proj]="project"></app-project-displayer>
+        </div>
+    </div> 
+</div>
