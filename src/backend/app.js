@@ -6,9 +6,15 @@ const PORT = process.env.PORT || 8080;
 const server = http.createServer(async (req, res) => {
     // /api/blog : GET
     if (req.url === "/api/blog" && req.method === "GET") {
-        const blogPosts = await new Blog().getAllPosts();
-        res.writeHead(200, { "Content-Type": "application/json" });
-        res.end(JSON.stringify(blogPosts));
+        try {
+            const blogPosts = await new Blog().getAllPosts();
+            res.writeHead(200, { "Content-Type": "application/json" });
+            res.end(JSON.stringify(blogPosts));
+        }
+        catch (error) {
+            res.writeHead(404, { "Content-Type": "application/json" });
+            res.end(JSON.stringify({ message: error }));
+        }
     }
 
     // /api/blog/:id : GET
@@ -22,6 +28,12 @@ const server = http.createServer(async (req, res) => {
             res.writeHead(404, { "Content-Type": "application/json" });
             res.end(JSON.stringify({ message: error }));
         }
+    }
+
+    // No matching route
+    else {
+        res.writeHead(404, { "Content-Type": "application/json" });
+        res.end(JSON.stringify({ message: "Route not found" }));
     }
 });
 

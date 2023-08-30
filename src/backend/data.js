@@ -14,3 +14,4 @@ const blogPosts = [
         topics: ["NodeJs", "backend", "blog", "website"]
     }
 ]
+module.exports = blogPosts;
