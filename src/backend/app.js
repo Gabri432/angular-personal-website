@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 8080;
 
 const server = http.createServer(async (req, res) => {
     // /api/todos : GET
-    if (req.url === "/api/todos" && req.method === "GET") {
+    if (req.url === "/api/blog" && req.method === "GET") {
         // get the todos.
         const todos = await new Blog().getAllPosts();
         // set the status code, and content-type
@@ -15,7 +15,7 @@ const server = http.createServer(async (req, res) => {
     }
 
     // /api/todos/:id : GET
-    else if (req.url.match(/\/api\/todos\/([0-9]+)/) && req.method === "GET") {
+    else if (req.url.match(/\/api\/blog\/([0-9]+)/) && req.method === "GET") {
         try {
             // get id from url
             const id = req.url.split("/")[3];
