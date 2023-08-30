@@ -4,31 +4,22 @@ const Blog = require("./controllers");
 const PORT = process.env.PORT || 8080;
 
 const server = http.createServer(async (req, res) => {
-    // /api/todos : GET
+    // /api/blog : GET
     if (req.url === "/api/blog" && req.method === "GET") {
-        // get the todos.
-        const todos = await new Blog().getAllPosts();
-        // set the status code, and content-type
+        const blogPosts = await new Blog().getAllPosts();
         res.writeHead(200, { "Content-Type": "application/json" });
-        // send the data
-        res.end(JSON.stringify(todos));
+        res.end(JSON.stringify(blogPosts));
     }
 
-    // /api/todos/:id : GET
+    // /api/blog/:id : GET
     else if (req.url.match(/\/api\/blog\/([0-9]+)/) && req.method === "GET") {
         try {
-            // get id from url
             const id = req.url.split("/")[3];
-            // get todo
-            const todo = await new Blog().getPost(id);
-            // set the status code and content-type
+            const blogPost = await new Blog().getPost(id);
             res.writeHead(200, { "Content-Type": "application/json" });
-            // send the data
-            res.end(JSON.stringify(todo));
+            res.end(JSON.stringify(blogPost));
         } catch (error) {
-            // set the status code and content-type
             res.writeHead(404, { "Content-Type": "application/json" });
-            // send the error
             res.end(JSON.stringify({ message: error }));
         }
     }
