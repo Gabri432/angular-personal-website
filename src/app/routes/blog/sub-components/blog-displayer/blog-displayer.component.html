@@ -4,7 +4,7 @@
         <div id="blog-displayer" *ngFor="let blog of blogs">
             <div class="title">{{blog.title}}</div>
             <div class="topics">
-                <span *ngFor="let topic of blog.topics">#{{topic}}&nbsp;</span>
+                <span *ngFor="let topic of blog.topics">#{{topic}}<br /></span>
             </div>
         </div>
     </div>

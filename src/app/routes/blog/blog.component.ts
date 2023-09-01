@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { SecurityContext } from '@angular/core';
+import { MarkdownModule } from 'ngx-markdown'; 
+import { HttpClientModule, HttpClient } from '@angular/common/http'; 
 /*
 import { HttpClient } from '@angular/common/http'; 
 import { Observable } from 'rxjs';
