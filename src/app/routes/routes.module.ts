@@ -5,6 +5,7 @@ import { MyProjectsComponent } from './my-projects/my-projects.component';
 import { ProjectDisplayerComponent } from './my-projects/sub-components/project-displayer/project-displayer.component';
 import { BlogComponent } from './blog/blog.component';
 import { HttpClientModule } from '@angular/common/http';
+import { BlogDisplayerComponent } from './blog/sub-components/blog-displayer/blog-displayer.component';
 
 
 
@@ -13,7 +14,8 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     MyProjectsComponent,
     ProjectDisplayerComponent,
-    BlogComponent
+    BlogComponent,
+    BlogDisplayerComponent
   ],
   imports: [
     CommonModule,
