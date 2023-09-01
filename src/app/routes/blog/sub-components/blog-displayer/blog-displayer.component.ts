@@ -7,7 +7,6 @@ import { BlogPost } from '../../models/blogPost';
   styleUrls: ['./blog-displayer.component.scss']
 })
 export class BlogDisplayerComponent {
-  blog!: BlogPost;
 
   blogs: Array<BlogPost> = [
     {
@@ -15,21 +14,24 @@ export class BlogDisplayerComponent {
       title: "This is my story, so far...",
       description: "",
       author: "Gabriele Gatti",
-      topics: ["about-me", "hi"]
+      topics: ["about-me", "hi"],
+      link: "blog/this-is-my-story"
     },
     {
       id: 2,
       title: "Italian Basketball team journey",
       description: "",
       author: "Gabriele Gatti",
-      topics: ["basketball", "italy", "world-cup"]
+      topics: ["basketball", "italy", "world-cup"],
+      link: ""
     },
     {
       id: 3,
       title: "Why I like Angular so much",
       description: "",
       author: "Gabriele Gatti",
-      topics: ["angular", "programming", "web-development"]
+      topics: ["angular", "programming", "web-development"],
+      link: ""
     }
   ]
 }

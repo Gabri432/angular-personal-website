@@ -7,6 +7,7 @@ import { BlogComponent } from './blog/blog.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { BlogDisplayerComponent } from './blog/sub-components/blog-displayer/blog-displayer.component';
 import { MarkdownModule } from 'ngx-markdown';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -21,6 +22,7 @@ import { MarkdownModule } from 'ngx-markdown';
   imports: [
     CommonModule,
     HttpClientModule,
+    RouterModule,
     MarkdownModule.forRoot({ loader: HttpClient, sanitize: SecurityContext.NONE })
   ]
 })

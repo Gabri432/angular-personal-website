@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
-import { SecurityContext } from '@angular/core';
-import { MarkdownModule } from 'ngx-markdown'; 
-import { HttpClientModule, HttpClient } from '@angular/common/http'; 
+import { ActivatedRoute } from '@angular/router';
 /*
 import { HttpClient } from '@angular/common/http'; 
 import { Observable } from 'rxjs';
@@ -22,5 +20,15 @@ export class BlogComponent {
   getBlogPosts(): Observable<BlogPost[]> {
     return this.http.get<BlogPost[]>('/api/blog');
   }*/
+
+  blogPost: string = ""; 
+  href: string = ""; 
+  constructor(private route: ActivatedRoute) { } 
+
+  ngOnInit(): void {
+    let articleName = this.route.snapshot.paramMap.get('id'); 
+    this.href = window.location.href; 
+    this.blogPost = '../../../assets/blog-content/' + articleName + '.md'; 
+}
 
 }
