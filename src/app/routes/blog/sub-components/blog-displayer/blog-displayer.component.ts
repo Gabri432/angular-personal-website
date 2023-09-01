@@ -12,24 +12,24 @@ export class BlogDisplayerComponent {
   blogs: Array<BlogPost> = [
     {
       id: 1,
-      title: "",
+      title: "This is my story, so far...",
       description: "",
       author: "Gabriele Gatti",
-      topics: [""]
+      topics: ["about-me", "hi"]
     },
     {
       id: 2,
-      title: "",
+      title: "Italian Basketball team journey",
       description: "",
       author: "Gabriele Gatti",
-      topics: [""]
+      topics: ["basketball", "italy", "world-cup"]
     },
     {
       id: 3,
-      title: "",
+      title: "Why I like Angular so much",
       description: "",
       author: "Gabriele Gatti",
-      topics: [""]
+      topics: ["angular", "programming", "web-development"]
     }
   ]
 }

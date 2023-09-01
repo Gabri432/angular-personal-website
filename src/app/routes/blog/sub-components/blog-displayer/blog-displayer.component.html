@@ -2,8 +2,10 @@
     <h2>My blogs</h2>
     <div id="blog-grid">
         <div id="blog-displayer" *ngFor="let blog of blogs">
-            <div id="title">{{blog.title}}</div>
-            <div id="topics">#{{blog.topics}}</div>
+            <div class="title">{{blog.title}}</div>
+            <div class="topics">
+                <span *ngFor="let topic of blog.topics">#{{topic}}&nbsp;</span>
+            </div>
         </div>
     </div>
 </div>

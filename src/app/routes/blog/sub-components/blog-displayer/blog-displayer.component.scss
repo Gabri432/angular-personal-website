@@ -7,6 +7,7 @@
     border: 1px solid black;
     border-radius: 5px;
     margin: 5px;
+    background-color: black;
     cursor: pointer;
 
     a {
@@ -14,16 +15,15 @@
         color: black;
     }
 
-    #title {
-        background-color: black;
+    .title {
+        
         color: white;
         font-size: 22px;
-        padding: 1%;
+        padding: 5%;
         height: 15vh;
     }
 
-    #topics {
-        background-color: black;
+    .topics {
         color: white;
         padding: 2%;
     }
