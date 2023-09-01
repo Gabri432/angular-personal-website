@@ -1,11 +1,12 @@
-import { NgModule } from '@angular/core';
+import { NgModule, SecurityContext } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { MyProjectsComponent } from './my-projects/my-projects.component';
 import { ProjectDisplayerComponent } from './my-projects/sub-components/project-displayer/project-displayer.component';
 import { BlogComponent } from './blog/blog.component';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { BlogDisplayerComponent } from './blog/sub-components/blog-displayer/blog-displayer.component';
+import { MarkdownModule } from 'ngx-markdown';
 
 
 
@@ -19,7 +20,8 @@ import { BlogDisplayerComponent } from './blog/sub-components/blog-displayer/blo
   ],
   imports: [
     CommonModule,
-    HttpClientModule
+    HttpClientModule,
+    MarkdownModule.forRoot({ loader: HttpClient, sanitize: SecurityContext.NONE })
   ]
 })
 export class RoutesModule { }
