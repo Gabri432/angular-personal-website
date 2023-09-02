@@ -44,7 +44,7 @@ export class BlogDisplayerComponent {
   }
 
   changeRoute(route: string) {
-    //console.log(route);
-    window.location.href = route; 
+    console.log(route);
+    window.location.href = "/angular-personal-website" + route; 
   }
 }
