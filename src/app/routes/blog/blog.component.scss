@@ -10,6 +10,11 @@ app-blog-displayer {
 #margin {
     height: 20vh;
 }
+hr {
+    width: 70%;
+    margin-left: 15%;
+    border: 1px solid lightgrey;
+}
 
 @media only screen and (max-width: 499px) {
     #blog-container {
