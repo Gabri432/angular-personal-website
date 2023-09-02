@@ -32,10 +32,17 @@
             text-align: left;
             font-size: 20px;
         }
+
+        h2 {
+            color: grey;
+            font-size: 34px;
+        }
     }
 
-    #my-projects-section, #my-blog-section {
-        border-top: 5px solid black;
+    hr {
+        width: 70%;
+        margin-left: 15%;
+        border: 1px solid lightgrey;
     }
 }
 
