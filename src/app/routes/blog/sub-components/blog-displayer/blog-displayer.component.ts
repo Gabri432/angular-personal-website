@@ -25,7 +25,7 @@ export class BlogDisplayerComponent {
       description: "",
       author: "Gabriele Gatti",
       topics: ["basketball", "italy", "world-cup"],
-      link: ""
+      link: "blog/italian-basketball-team-journey"
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ export class BlogDisplayerComponent {
       description: "",
       author: "Gabriele Gatti",
       topics: ["angular", "programming", "web-development"],
-      link: ""
+      link: "blog/why-i-love-angular"
     }
   ]
 
