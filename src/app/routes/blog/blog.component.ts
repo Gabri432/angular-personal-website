@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { BlogPost } from './models/blogPost';
+import { environment } from 'src/environments/environment';
+
 /*
 import { HttpClient } from '@angular/common/http'; 
 import { Observable } from 'rxjs';
-import { BlogPost } from './models/blogPost';
 */
 
 @Component({
@@ -29,7 +30,11 @@ export class BlogComponent {
 
   ngOnInit(): void {
     let articleName = this.route.snapshot.paramMap.get('id');
-    this.blogPost = '../../../assets/blog-content/' + articleName + '.md'; 
+    let pathToFile = "../../../assets/blog-content/";
+    if (environment.production) {
+      pathToFile = "./assets/blog-content/";
+    }
+    this.blogPost = pathToFile + articleName + '.md'; 
   }
 
 }
