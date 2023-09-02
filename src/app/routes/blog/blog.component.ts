@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { BlogPost } from './models/blogPost';
 /*
 import { HttpClient } from '@angular/common/http'; 
 import { Observable } from 'rxjs';
@@ -21,6 +22,8 @@ export class BlogComponent {
     return this.http.get<BlogPost[]>('/api/blog');
   }*/
 
+  blogs: Array<BlogPost> = []
+
   blogPost: string = ""; 
   href: string = ""; 
   constructor(private route: ActivatedRoute) { } 
@@ -29,6 +32,6 @@ export class BlogComponent {
     let articleName = this.route.snapshot.paramMap.get('id'); 
     this.href = window.location.href; 
     this.blogPost = '../../../assets/blog-content/' + articleName + '.md'; 
-}
+  }
 
 }

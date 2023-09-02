@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { BlogPost } from '../../models/blogPost';
 
 @Component({
@@ -7,6 +7,8 @@ import { BlogPost } from '../../models/blogPost';
   styleUrls: ['./blog-displayer.component.scss']
 })
 export class BlogDisplayerComponent {
+
+  @Input() displayBlogs: Array<BlogPost> = []
 
   blogs: Array<BlogPost> = [
     {
@@ -34,4 +36,10 @@ export class BlogDisplayerComponent {
       link: ""
     }
   ]
+
+  ngOnInit() {
+    if (this.displayBlogs.length == 0) {
+      this.displayBlogs = this.blogs; 
+    }
+  }
 }
