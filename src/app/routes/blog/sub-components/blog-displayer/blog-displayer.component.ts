@@ -42,4 +42,9 @@ export class BlogDisplayerComponent {
       this.displayBlogs = this.blogs; 
     }
   }
+
+  changeRoute(route: string) {
+    //console.log(route);
+    window.location.href = route; 
+  }
 }

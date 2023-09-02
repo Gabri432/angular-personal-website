@@ -25,12 +25,10 @@ export class BlogComponent {
   blogs: Array<BlogPost> = []
 
   blogPost: string = ""; 
-  href: string = ""; 
   constructor(private route: ActivatedRoute) { } 
 
   ngOnInit(): void {
-    let articleName = this.route.snapshot.paramMap.get('id'); 
-    this.href = window.location.href; 
+    let articleName = this.route.snapshot.paramMap.get('id');
     this.blogPost = '../../../assets/blog-content/' + articleName + '.md'; 
   }
 

@@ -2,7 +2,7 @@
     <h2>My blogs</h2>
     <div id="blog-grid">
         <div id="blog-displayer" *ngFor="let blog of displayBlogs">
-            <a [routerLink]="blog.link">
+            <a [routerLink]="blog.link" (click)="changeRoute(blog.link)">
                 <div class="title">{{blog.title}}</div>
                 <div class="topics">
                 <span *ngFor="let topic of blog.topics">#{{topic}}<br /></span>
