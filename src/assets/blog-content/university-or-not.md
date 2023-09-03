@@ -56,4 +56,7 @@ I hope I have cleared some of your doubts and ease your decision, if not, well..
 See you!
 
 Date: 3rd September 2023.
+<br />
+
+Did you find a typo? Do you have a suggestion? You can go [here](https://github.com/Gabri432/angular-personal-website/issues/new)!
 
