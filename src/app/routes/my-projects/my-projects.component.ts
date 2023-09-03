@@ -83,6 +83,7 @@ export class MyProjectsComponent {
   ]
 
   ngOnInit() {
+    this.displayProjects = this.projects;
     if (window.location.pathname.includes("/projects")) {
       this.projects.push(...this.otherProjects);
       this.displayProjects = this.projects;
