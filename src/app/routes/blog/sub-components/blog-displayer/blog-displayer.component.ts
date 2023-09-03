@@ -37,9 +37,24 @@ export class BlogDisplayerComponent {
     }
   ]
 
+  otherBlogs: Array<BlogPost> = [
+    {
+      id: 3,
+      title: "empty title",
+      description: "",
+      author: "Gabriele Gatti",
+      topics: ["empty-topic"],
+      link: "/blog/empty-link"
+    }
+  ];
+
   ngOnInit() {
     if (this.displayBlogs.length == 0) {
       this.displayBlogs = this.blogs; 
+    }
+    if (window.location.pathname.includes("/blogs")) {
+      this.blogs.push(...this.otherBlogs);
+      this.displayBlogs = this.blogs;
     }
   }
 
