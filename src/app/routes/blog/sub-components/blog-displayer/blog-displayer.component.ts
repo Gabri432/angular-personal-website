@@ -40,11 +40,11 @@ export class BlogDisplayerComponent {
   otherBlogs: Array<BlogPost> = [
     {
       id: 3,
-      title: "empty title",
+      title: "University or not?",
       description: "",
       author: "Gabriele Gatti",
-      topics: ["empty-topic"],
-      link: "/blog/empty-link"
+      topics: ["university", "university-life", "future"],
+      link: "/blog/university-or-not"
     }
   ];
 
