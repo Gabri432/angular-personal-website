@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Project } from './models/project';
 
 @Component({
@@ -7,6 +7,8 @@ import { Project } from './models/project';
   styleUrls: ['./my-projects.component.scss']
 })
 export class MyProjectsComponent {
+
+  @Input() displayProjects: Array<Project> = []
 
   projects: Array<Project> = [
     {
@@ -52,5 +54,39 @@ export class MyProjectsComponent {
       languages: ["Angular", "Typescript"]
     },
   ];
+
+  otherProjects: Array<Project> = [
+    {
+      name: "empty project", 
+      description: "empty project description.", 
+      link: "empty project link", 
+      languages: ["None"]
+    },
+    {
+      name: "empty project", 
+      description: "empty project description.", 
+      link: "empty project link", 
+      languages: ["None"]
+    },
+    {
+      name: "empty project", 
+      description: "empty project description.", 
+      link: "empty project link", 
+      languages: ["None"]
+    },
+    {
+      name: "empty project", 
+      description: "empty project description.", 
+      link: "empty project link", 
+      languages: ["None"]
+    },
+  ]
+
+  ngOnInit() {
+    if (window.location.pathname.includes("/projects")) {
+      this.projects.push(...this.otherProjects);
+      this.displayProjects = this.projects;
+    }
+  }
 
 }
