@@ -74,3 +74,7 @@ Hope you enjoyed my first blog. See you!
 
 Date: 2nd of September 2023
 
+<br />
+
+Did you find a typo? Do you have a suggestion? You can go [here](https://github.com/Gabri432/angular-personal-website/issues/new)!
+
