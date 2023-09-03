@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-header',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  baseUrl: string = "";
+
+  ngOnInit(): void {
+    if (environment.production) {
+      this.baseUrl = "angular-personal-website";
+    }
+  }
 }
