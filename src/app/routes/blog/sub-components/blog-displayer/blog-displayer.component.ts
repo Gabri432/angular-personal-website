@@ -21,6 +21,14 @@ export class BlogDisplayerComponent {
     },
     {
       id: 2,
+      title: "University or not?",
+      description: "",
+      author: "Gabriele Gatti",
+      topics: ["university", "university-life", "future"],
+      link: "/blog/university-or-not"
+    },
+    {
+      id: 3,
       title: "Italian Basketball team journey",
       description: "",
       author: "Gabriele Gatti",
@@ -28,7 +36,7 @@ export class BlogDisplayerComponent {
       link: "/blog/italian-basketball-team-journey"
     },
     {
-      id: 3,
+      id: 4,
       title: "Why I like Angular so much",
       description: "",
       author: "Gabriele Gatti",
@@ -39,12 +47,12 @@ export class BlogDisplayerComponent {
 
   otherBlogs: Array<BlogPost> = [
     {
-      id: 3,
-      title: "University or not?",
+      id: 5,
+      title: "empty blog post to be filled",
       description: "",
       author: "Gabriele Gatti",
-      topics: ["university", "university-life", "future"],
-      link: "/blog/university-or-not"
+      topics: ["angular", "programming", "web-development"],
+      link: "/blog/non-working-link"
     }
   ];
 
