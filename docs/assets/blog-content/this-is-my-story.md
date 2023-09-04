@@ -1,4 +1,7 @@
-## How did I get to this... 
+# How did I get to this... 
+<br /><br />
+<span class="date">Date: 2nd of September 2023.</span><br />
+
 I've never really been interested in programming until a 3 years ago... when a certain virus decided to escape from a lab in China and to freak up the world for a while.
 
 Until then I had never written even a single line of code. The only thing related to programming was... playing games...<br>
@@ -72,9 +75,15 @@ I thought that a blog was going to be the ideal project because it allows me to 
 Hope you enjoyed my first blog. See you!
 
 
-Date: 2nd of September 2023
-
 <br />
 
 Did you find a typo? Do you have a suggestion? You can go <a href="https://github.com/Gabri432/angular-personal-website/issues/new" target="_blank" title="Go to the Github repository">here</a>!
 
+
+
+<style>
+.date {
+    color: grey;
+    font-size: 16px
+}
+</style>
