@@ -1,4 +1,8 @@
 # To go or not to go...
+<br /><br />
+
+<span class="date"> Date: 3rd of September 2023 </span> <br />
+
 Maybe you have just finished high school, or maybe you already have some working experience. Whatever is your current situation you may have been asking yourself recently if the university is the right path for you or not. After all this is a big leap that will occupy the next years of your life.<br /><br />
 
 Attending a University may cost **a lot of money** and you may not be able to afford it. It's not just the yearly enrollment, but also books and the travels.<br />
@@ -54,9 +58,15 @@ If you are not sure to go to the university, I suggest you either try to talk to
 I hope I have cleared some of your doubts and ease your decision, if not, well... sorry to waste your time... 😬<br /><br />
 
 See you!
-
-Date: 3rd September 2023.
 <br />
 
 Did you find a typo? Do you have a suggestion? You can go <a href="https://github.com/Gabri432/angular-personal-website/issues/new" target="_blank" title="Go to the Github repository">here</a>!
+
+
+<style>
+.date {
+    color: grey;
+    font-size: 16px
+}
+</style>
 

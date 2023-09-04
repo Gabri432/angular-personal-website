@@ -3,6 +3,7 @@
     width: 60%;
     margin-left: 20%;
     min-height: 100vh;
+    font-size: 22px;
 }
 app-blog-displayer {
     text-align: center;
@@ -14,6 +15,9 @@ hr {
     width: 70%;
     margin-left: 15%;
     border: 1px solid lightgrey;
+}
+.date {
+    color: red;
 }
 
 @media only screen and (max-width: 499px) {
