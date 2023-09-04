@@ -58,5 +58,5 @@ See you!
 Date: 3rd September 2023.
 <br />
 
-Did you find a typo? Do you have a suggestion? You can go [here](https://github.com/Gabri432/angular-personal-website/issues/new)!
+Did you find a typo? Do you have a suggestion? You can go <a href="https://github.com/Gabri432/angular-personal-website/issues/new" target="_blank" title="Go to the Github repository">here</a>!
 
