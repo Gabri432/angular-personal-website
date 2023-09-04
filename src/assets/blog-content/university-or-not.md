@@ -45,7 +45,7 @@ And why luckily I already have some (working) experience, my peers are not that 
 Another thing to consider is the **travel distance**. You may have to commute for even more than an hour to get on time for the start of the lesson, and to do that you may need to wake up early every day in order to achieve such a goal.<br />
 But in the long run this situation can be **quite stressful** to a lot of people, because you may not get enough time to sleep, to stay at home with your family, or to spend some time with your friends.<br /><br />
 
-Some people, in other to pay university fees, may have also to work while studying, which may not be a suitable solution for everybody.
+Some people, in order to pay university fees, may have also to work while studying, which may not be a suitable solution for everybody.
 
 <br /><br />
 
