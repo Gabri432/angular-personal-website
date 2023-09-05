@@ -41,6 +41,7 @@ export class BlogComponent {
       const blogPostRetrieved: BlogPost = this.searchPostByTitle(articleName);
       document.querySelector("meta[name='keywords']" )!.setAttribute("content", blogPostRetrieved.topics.toString());
       document.querySelector("meta[name='description']" )!.setAttribute("content", blogPostRetrieved.description);
+      document.title = blogPostRetrieved.title || "My Blog";
     }
     
 
