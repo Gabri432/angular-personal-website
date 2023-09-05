@@ -39,7 +39,6 @@ export class BlogComponent {
 
     if (articleName != null) {
       const blogPostRetrieved: BlogPost = this.searchPostByTitle(articleName);
-      console.log(blogPostRetrieved);
       document.querySelector("meta[name='keywords']" )!.setAttribute("content", blogPostRetrieved.topics.toString());
       document.querySelector("meta[name='description']" )!.setAttribute("content", blogPostRetrieved.description);
     }
