@@ -77,8 +77,9 @@ Hope you enjoyed my first blog. See you!
 
 <br />
 
-Did you find a typo? Do you have a suggestion? You can go <a href="https://github.com/Gabri432/angular-personal-website/issues/new" target="_blank" title="Go to the Github repository">here</a>!
+Did you find a typo? Do you have a suggestion? You can go <a href="https://github.com/Gabri432/angular-personal-website/issues/new" target="_blank" title="Go to the Github repository">here</a>!<br />
 
+Did you like the story? You can put a star on the <a href="https://github.com/Gabri432/angular-personal-website/" target="_blank" title="Go to the Github repository">github</a> repository!
 
 
 <style>
