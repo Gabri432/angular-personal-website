@@ -23,7 +23,7 @@ But also that the road to the top is still too long.<br /><br />
 
 Today **Simone Fontecchio** is the only italian playing in the NBA. And previously only three italians have ever played in the league, one of them was **Nico Melli** for the New Orleans Pelicans. <br /><br />
 
-There is a lack of internationally good italian players. So or italian basketball teams starts to get more italians in their teams to become competitive in the upcoming years, or we may never be able to repeat such an **epic deed**. <br />
+There is a lack of internationally good italian players. So, either italian basketball teams starts to get more italians in their teams to become competitive in the upcoming years, or we may never be able to repeat such an **epic deed**. <br />
 Hope you enjoyed it!
 
 
