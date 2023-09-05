@@ -9,7 +9,7 @@ const routes: Routes = [
   {path: '', component: HomeComponent, title: 'About Gabriele Gatti'},
   {path: 'projects', component: MyProjectsComponent, title: 'My Projects'},
   {path: 'blogs', component: BlogDisplayerComponent, title: 'My Blogs'},
-  {path: 'blog/:id', component: BlogComponent, title: 'My Blogs'},
+  {path: 'blog/:title', component: BlogComponent, title: 'My Blogs'},
   {path: '**', component: HomeComponent},
 ];
 
