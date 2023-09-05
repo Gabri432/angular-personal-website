@@ -8,4 +8,9 @@ import { Project } from '../../models/project';
 })
 export class ProjectDisplayerComponent {
     @Input() proj!: Project;
+
+    ngOnInit(): void {
+      document.querySelector("meta[name='keywords']" )!.setAttribute("content", "Gabriele Gatti, Gabriele, Gabri432");
+      document.querySelector("meta[name='description']" )!.setAttribute("content", "A personal website and blog made with Angular 16+ by Gabriele Gatti");
+    }
 }
