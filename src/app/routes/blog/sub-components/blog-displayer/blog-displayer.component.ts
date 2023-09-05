@@ -27,6 +27,8 @@ export class BlogDisplayerComponent {
 
     if (window.location.pathname.includes("/blogs")) {
       this.displayBlogs = blogs;
+      document.querySelector("meta[name='keywords']" )!.setAttribute("content", "Gabriele Gatti, Gabriele, Gabri432");
+      document.querySelector("meta[name='description']" )!.setAttribute("content", "A personal website and blog made with Angular 16+ by Gabriele Gatti");
     }
   }
 
