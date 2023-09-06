@@ -60,7 +60,7 @@ I hope I have cleared some of your doubts and ease your decision, if not, well..
 See you!
 <br />
 
-Did you find a typo? Do you have a suggestion? You can go <a href="https://github.com/Gabri432/angular-personal-website/issues/new" target="_blank" title="Go to the Github repository">here</a>!<br />
+Did you find a typo? Do you have a suggestion? You can go to the <a href="https://github.com/Gabri432/angular-personal-website/issues/new" target="_blank" title="Go to the Github repository">Report Page</a>! or message me on <a href="https://www.linkedin.com/in/gabriele-gatti-87b321190/" target="_blank" title="Go to my Linkeding profile">Linkedin</a>.
 
 Did you like the story? You can put a star on the <a href="https://github.com/Gabri432/angular-personal-website/" target="_blank" title="Go to the Github repository">github</a> repository!
 
