@@ -11,7 +11,6 @@ export class HomeComponent {
 
   ngOnInit(): void {
     NonceGeneratorService.generateNonce()
-    console.log(environment.nonce.length);
     //document.querySelector("meta[http-equiv='Content-Security-Policy']" )!.setAttribute("content", "script-src 'self' 'sha512-'" + environment.nonce);
   }
 
