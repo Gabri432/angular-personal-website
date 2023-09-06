@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { NonceGeneratorService } from 'src/app/core/services/nonce-generator.service';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +9,10 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
-  englishAboutMe: string = "";
-  italianAboutMe: string = "Ciao! Sono un aspirante sviluppatore di software che attualmente studia Informatica all'Università degli studi di Milano.";
+  ngOnInit(): void {
+    NonceGeneratorService.generateNonce()
+    console.log(environment.nonce.length);
+    //document.querySelector("meta[http-equiv='Content-Security-Policy']" )!.setAttribute("content", "script-src 'self' 'sha512-'" + environment.nonce);
+  }
 
 }
