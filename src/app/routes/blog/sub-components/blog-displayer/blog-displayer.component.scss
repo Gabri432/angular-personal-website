@@ -13,8 +13,7 @@ h2 {
     border-radius: 5px;
     margin: 5px;
     background-color: white;
-    border-top: 1px solid lightgrey;
-    border-left: 1px solid lightgrey;
+    border: 1px solid lightgrey;
     cursor: pointer;
 
     a {
@@ -22,11 +21,16 @@ h2 {
         color: black;
     }
 
+    .image {
+        height: 20vh;
+        background-color: grey;
+    }
+
     .title {  
         color: black;
         font-size: 22px;
         padding: 5%;
-        height: 15vh;
+        height: 10vh;
     }
 
     .topics {

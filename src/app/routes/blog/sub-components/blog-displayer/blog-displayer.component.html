@@ -3,6 +3,7 @@
     <div id="blog-grid">
         <div id="blog-displayer" *ngFor="let blog of displayBlogs">
             <a [routerLink]="blog.link" (click)="changeRoute(blog.link)">
+                <div class="image"></div>
                 <div class="title">{{blog.title}}</div>
                 <div class="topics">
                 <span *ngFor="let topic of blog.topics">#{{topic}}<br /></span>
