@@ -6,7 +6,7 @@ export const blogs: Array<BlogPost> = [
       title: "This is my story, so far...",
       description: "The story of how I started write my first lines of code",
       author: "Gabriele Gatti",
-      topics: ["about-me", "hi"],
+      topics: ["about-me", "hi", "stories"],
       link: "/blog/this-is-my-story"
     },
     {
@@ -14,7 +14,7 @@ export const blogs: Array<BlogPost> = [
       title: "University or not?",
       description: "Discussing the pros and cons of attending a university",
       author: "Gabriele Gatti",
-      topics: ["university", "university-life", "future"],
+      topics: ["university", "education", "future"],
       link: "/blog/university-or-not"
     },
     {
@@ -22,7 +22,7 @@ export const blogs: Array<BlogPost> = [
       title: "Italian Basketball team journey",
       description: "Commenting about the journey of the italian basketball team in the 2023 FIBA world cup",
       author: "Gabriele Gatti",
-      topics: ["basketball", "italy", "world-cup", "FIBA"],
+      topics: ["basketball", "sport", "world-cup", "FIBA"],
       link: "/blog/italian-basketball-team-journey"
     },
     {

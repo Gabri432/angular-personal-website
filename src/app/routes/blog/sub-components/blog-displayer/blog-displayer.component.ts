@@ -1,6 +1,8 @@
 import { Component, Input } from '@angular/core';
 import { BlogPost } from '../../models/blogPost';
 import { blogs } from '../../content/blogPosts';
+import { FilterPostsService } from 'src/app/core/services/filter-posts.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-blog-displayer',
@@ -15,24 +17,50 @@ export class BlogDisplayerComponent {
 
   otherBlogs: Array<BlogPost> = [];
 
-  optionBar: string[] = ["programming", "sport", "education", "stories", "gaming", "music"];
+  optionBar: string[] = ["programming", "sport", "education", "stories", "gaming", "music", "all"];
+
+  constructor(private router: Router) {
+    this.router.events.subscribe(() => {
+      this.displayPostByRoute();
+    });
+  }
 
   ngOnInit() {
     document.getElementById("blog-options")!.style.display = "none";
     if (this.displayBlogs.length == 0) {
-      for (let blog of blogs) {
-        if (this.displayBlogs.length > 3) {
-          break;
-        }
-        this.displayBlogs.push(blog);
-      }
+      this.limitPostsToShow(3);
     }
 
     if (window.location.pathname.includes("/blogs")) {
-      this.displayBlogs = blogs;
-      document.getElementById("blog-options")!.style.display = "block";
-      document.querySelector("meta[name='keywords']" )!.setAttribute("content", "Gabriele Gatti, Gabriele, Gabri432");
-      document.querySelector("meta[name='description']" )!.setAttribute("content", "A personal website and blog made with Angular 16+ by Gabriele Gatti");
+      this.displayDefaultPosts();
+      this.displayPostByRoute();
+    }
+  }
+
+  limitPostsToShow(amount: number): void {
+    for (let blog of blogs) {
+      if (this.displayBlogs.length > amount) {
+        break;
+      }
+      this.displayBlogs.push(blog);
+    }
+  }
+
+  displayDefaultPosts(): void {
+    this.displayBlogs = blogs;
+    document.getElementById("blog-options")!.style.display = "block";
+    document.querySelector("meta[name='keywords']" )!.setAttribute("content", "Gabriele Gatti, Gabriele, Gabri432");
+    document.querySelector("meta[name='description']" )!.setAttribute("content", "A personal website and blog made with Angular 16+ by Gabriele Gatti");
+  }
+
+  displayPostByRoute(): void {
+    if (window.location.pathname.includes("/blogs/")) {
+      const chosenOption = window.location.pathname.replace("/angular-personal-website/blogs/", "");
+      if (chosenOption != "all") {
+        this.displayBlogs = FilterPostsService.filterBlogs(chosenOption);
+      } else {
+        window.location.href = "/angular-personal-website/blogs";
+      }
     }
   }
 
