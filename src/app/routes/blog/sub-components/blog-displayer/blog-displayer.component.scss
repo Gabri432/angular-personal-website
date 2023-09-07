@@ -9,6 +9,29 @@ h2 {
     text-align: center;
 }
 
+#blog-options {
+    text-align: center;
+    min-height: 10vh;
+    width: 80%;
+    margin-left: 10%;
+    word-break: break-word;
+    line-height: 2.5;
+
+    .option {
+        border: 1px solid grey;
+        padding: 5px;
+        text-align: center;
+        margin: 5px;
+        border-radius: 5px;
+        min-width: 8ch;
+    }
+
+    .option:hover {
+        background-color: black;
+        color: white;
+    }
+}
+
 #blog-displayer {
     border-radius: 5px;
     margin: 5px;

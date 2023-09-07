@@ -1,5 +1,8 @@
 <div id="container">
     <h2>My blogs</h2>
+    <div id="blog-options">
+        <a class="option" *ngFor="let option of optionBar">{{option}} </a>
+    </div>
     <div id="blog-grid">
         <div id="blog-displayer" *ngFor="let blog of displayBlogs">
             <a [routerLink]="blog.link" (click)="changeRoute(blog.link)">

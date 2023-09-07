@@ -15,6 +15,8 @@ export class BlogDisplayerComponent {
 
   otherBlogs: Array<BlogPost> = [];
 
+  optionBar: string[] = ["programming", "sport", "education", "stories", "gaming", "music"];
+
   ngOnInit() {
     if (this.displayBlogs.length == 0) {
       for (let blog of blogs) {
