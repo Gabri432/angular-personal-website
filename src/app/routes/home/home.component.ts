@@ -10,8 +10,14 @@ import { environment } from 'src/environments/environment';
 export class HomeComponent {
 
   ngOnInit(): void {
-    NonceGeneratorService.generateNonce()
-    document.querySelector("meta[http-equiv='Content-Security-Policy']" )!.setAttribute("content", "script-src 'self' 'sha512-" + environment.nonce + "'");
+    this.setNounce();
+  }
+
+  setNounce(): void {
+    NonceGeneratorService.generateNonce();
+    let text = document.querySelector("meta[http-equiv='Content-Security-Policy']" )!.getAttribute("content");
+    text = text!.concat(";\nscript-src 'self' 'sha512-" + environment.nonce + "'");
+    document.querySelector("meta[http-equiv='Content-Security-Policy']" )!.setAttribute("content", text!);
   }
 
 }

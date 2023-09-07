@@ -31,8 +31,7 @@ export class BlogComponent {
   constructor(private route: ActivatedRoute) { } 
 
   ngOnInit(): void {
-    NonceGeneratorService.generateNonce()
-    document.querySelector("meta[http-equiv='Content-Security-Policy']" )!.setAttribute("content", "script-src 'self' 'sha512-" + environment.nonce + "'");
+    this.setNounce();
     let articleName = this.route.snapshot.paramMap.get('title');
     let pathToFile = "../../../assets/blog-content/";
     if (environment.production) {
@@ -65,6 +64,13 @@ export class BlogComponent {
       topics: ["Gabriele Gatti", "Gabriele", "Gabri432"],
       link: "/blog/"
     };
+  }
+
+  setNounce(): void {
+    NonceGeneratorService.generateNonce();
+    let text = document.querySelector("meta[http-equiv='Content-Security-Policy']" )!.getAttribute("content");
+    text = text!.concat(";\nscript-src 'self' 'sha512-" + environment.nonce + "'"); 
+    document.querySelector("meta[http-equiv='Content-Security-Policy']" )!.setAttribute("content", text!);
   }
 
 }
