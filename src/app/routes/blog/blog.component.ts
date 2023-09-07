@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { BlogPost } from './models/blogPost';
 import { environment } from 'src/environments/environment';
 import { blogs } from './content/blogPosts';
+import { NonceGeneratorService } from 'src/app/core/services/nonce-generator.service';
 
 /*
 import { HttpClient } from '@angular/common/http'; 
@@ -30,6 +31,8 @@ export class BlogComponent {
   constructor(private route: ActivatedRoute) { } 
 
   ngOnInit(): void {
+    NonceGeneratorService.generateNonce()
+    document.querySelector("meta[http-equiv='Content-Security-Policy']" )!.setAttribute("content", "script-src 'self' 'sha512-" + environment.nonce + "'");
     let articleName = this.route.snapshot.paramMap.get('title');
     let pathToFile = "../../../assets/blog-content/";
     if (environment.production) {
