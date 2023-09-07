@@ -18,6 +18,7 @@ export class BlogDisplayerComponent {
   optionBar: string[] = ["programming", "sport", "education", "stories", "gaming", "music"];
 
   ngOnInit() {
+    document.getElementById("blog-options")!.style.display = "none";
     if (this.displayBlogs.length == 0) {
       for (let blog of blogs) {
         if (this.displayBlogs.length > 3) {
@@ -29,6 +30,7 @@ export class BlogDisplayerComponent {
 
     if (window.location.pathname.includes("/blogs")) {
       this.displayBlogs = blogs;
+      document.getElementById("blog-options")!.style.display = "block";
       document.querySelector("meta[name='keywords']" )!.setAttribute("content", "Gabriele Gatti, Gabriele, Gabri432");
       document.querySelector("meta[name='description']" )!.setAttribute("content", "A personal website and blog made with Angular 16+ by Gabriele Gatti");
     }
