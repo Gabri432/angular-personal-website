@@ -33,9 +33,10 @@ export class BlogComponent {
   ngOnInit(): void {
     this.setNounce();
     let articleName = this.route.snapshot.paramMap.get('title');
-    let pathToFile = "../../../assets/blog-content/";
+    let articleTopic = this.route.snapshot.paramMap.get('topic');
+    let pathToFile = "../../../assets/blog-content/" + articleTopic + "/";
     if (environment.production) {
-      pathToFile = "./assets/blog-content/";
+      pathToFile = "./assets/blog-content/" + articleTopic + "/";
     }
     this.blogPost = pathToFile + articleName + '.md'; 
 

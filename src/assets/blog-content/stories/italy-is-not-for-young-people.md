@@ -42,7 +42,8 @@ More often than not politics isn't even interested in young people related probl
 To summarize, Italy has a sctructural problem when it comes to its young generations.<br />
 It is too costly to have kids and so couples simply cannot have them until lately in their 50s, if ever.<br /><br />
 
-What Italy should do is probably increasing the investments on the education sector. At the time of writing this article, it destins only 4% of the GDP, while the EU average is about 4.8%. Those new investments should be used to increase the amount of teachers, as well as to modernize some of the oldest school buildings.<br />
+What Italy should do is probably increasing the investments on the education sector. At the time of writing this article, it destins only 4% of the GDP, while the EU average is about 4.8%.<br /> 
+Those new investments should be used to increase the amount of teachers, as well as to modernize some of the oldest school buildings.<br />
 But it isn't easy, since Italy has a public debt of 130-140% of the GDP.<br /><br />
 
 Whatever counter-measure any italian government decides to apply there is the need to act quickly, otherwise Italy may collapse on its retirement system.

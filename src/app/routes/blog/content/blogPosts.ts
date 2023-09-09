@@ -7,7 +7,7 @@ export const blogs: Array<BlogPost> = [
       description: "The story of how I started write my first lines of code",
       author: "Gabriele Gatti",
       topics: ["about-me", "hi", "stories"],
-      link: "/blog/this-is-my-story"
+      link: "/blog/stories/this-is-my-story"
     },
     {
       id: 2,
@@ -15,7 +15,7 @@ export const blogs: Array<BlogPost> = [
       description: "Discussing the pros and cons of attending a university",
       author: "Gabriele Gatti",
       topics: ["university", "education", "future"],
-      link: "/blog/university-or-not"
+      link: "/blog/education/university-or-not"
     },
     {
       id: 3,
@@ -23,22 +23,22 @@ export const blogs: Array<BlogPost> = [
       description: "Commenting about the journey of the italian basketball team in the 2023 FIBA world cup",
       author: "Gabriele Gatti",
       topics: ["basketball", "sport", "world-cup", "FIBA"],
-      link: "/blog/italian-basketball-team-journey"
+      link: "/blog/sport/italian-basketball-team-journey"
     },
     {
       id: 4,
+      title: "Italy is not for young people",
+      description: "Analizing the reasons why it is hard to be young in Italy",
+      author: "Gabriele Gatti",
+      topics: ["stories", "italy", "young people"],
+      link: "/blog/stories/italy-is-not-for-young-people"
+    },
+    {
+      id: 5,
       title: "Why I like Angular so much",
       description: "Describing the reasons why I love Angular and why you may love it too",
       author: "Gabriele Gatti",
       topics: ["angular", "programming", "web-development"],
-      link: "/blog/why-i-love-angular"
-    },
-    {
-        id: 5,
-        title: "Italy is not for young people",
-        description: "",
-        author: "Gabriele Gatti",
-        topics: ["stories", "italy"],
-        link: "/blog/italy-is-not-for-young"
+      link: "/blog/programming/why-i-love-angular"
     }
   ]
