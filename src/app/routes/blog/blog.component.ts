@@ -52,7 +52,7 @@ export class BlogComponent {
 
   searchPostByTitle(title: string): BlogPost {
     for (let blog of blogs) {
-      let blogTitle: string = blog.link.split("/")[2]; 
+      let blogTitle: string = blog.link.split("/")[3]; 
       if (blogTitle == title) {
         return blog;
       }
