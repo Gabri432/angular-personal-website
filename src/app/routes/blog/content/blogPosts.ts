@@ -35,10 +35,10 @@ export const blogs: Array<BlogPost> = [
     },
     {
         id: 5,
-        title: "empty blog post to be filled",
+        title: "Italy is not for young people",
         description: "",
         author: "Gabriele Gatti",
-        topics: ["angular", "programming", "web-development"],
-        link: "/blog/non-working-link"
+        topics: ["stories", "italy"],
+        link: "/blog/italy-is-not-for-young"
     }
   ]

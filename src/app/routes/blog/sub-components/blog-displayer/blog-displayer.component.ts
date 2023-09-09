@@ -3,6 +3,7 @@ import { BlogPost } from '../../models/blogPost';
 import { blogs } from '../../content/blogPosts';
 import { FilterPostsService } from 'src/app/core/services/filter-posts.service';
 import { Router } from '@angular/router';
+import { topics } from '../../content/topics';
 
 @Component({
   selector: 'app-blog-displayer',
@@ -17,7 +18,7 @@ export class BlogDisplayerComponent {
 
   otherBlogs: Array<BlogPost> = [];
 
-  optionBar: string[] = ["programming", "sport", "education", "stories", "gaming", "music", "all"];
+  optionBar: string[] = [...topics];
 
   constructor(private router: Router) {
     this.router.events.subscribe(() => {
