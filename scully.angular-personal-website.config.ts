@@ -7,7 +7,8 @@ const blogTopics = [
     '/angular-personal-website/blogs/gaming',
     '/angular-personal-website/blogs/music',
     '/angular-personal-website/blogs/sport',
-    '/angular-personal-website/blogs/programming'
+    '/angular-personal-website/blogs/programming',
+    '/angular-personal-website/blogs/all'
 ];
 
 const blogPostTitles = [
