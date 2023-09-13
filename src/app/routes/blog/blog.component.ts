@@ -31,7 +31,7 @@ export class BlogComponent {
   constructor(private route: ActivatedRoute) { } 
 
   ngOnInit(): void {
-    this.setNounce();
+    //this.setNounce();
     let articleName = this.route.snapshot.paramMap.get('title');
     let articleTopic = this.route.snapshot.paramMap.get('topic');
     let pathToFile = "../../../assets/blog-content/" + articleTopic + "/";

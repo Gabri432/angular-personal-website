@@ -10,7 +10,7 @@ import { environment } from 'src/environments/environment';
 export class HomeComponent {
 
   ngOnInit(): void {
-    this.setNounce();
+    //this.setNounce();
   }
 
   setNounce(): void {
