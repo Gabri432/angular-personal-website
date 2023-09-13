@@ -70,6 +70,9 @@ export class BlogComponent {
   setNounce(): void {
     NonceGeneratorService.generateNonce();
     let text = document.querySelector("meta[http-equiv='Content-Security-Policy']" )!.getAttribute("content");
+    if (text!.includes("sha512-")) {
+      return;
+    }
     text = text!.concat(";\nscript-src 'self' 'sha512-" + environment.nonce + "'"); 
     document.querySelector("meta[http-equiv='Content-Security-Policy']" )!.setAttribute("content", text!);
   }
