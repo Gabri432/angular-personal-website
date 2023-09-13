@@ -4,6 +4,5 @@ export const topics = [
     "education",
     "stories",
     "gaming",
-    "music",
-    "all"
+    "music"
 ];

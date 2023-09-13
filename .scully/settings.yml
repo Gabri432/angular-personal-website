@@ -6,6 +6,8 @@ hostName: localhost
 projectName: angular-personal-website
 homeFolder: C:\Users\PC\My Angular Programs\angular-personal-website
 distFolder: ./dist/angular-personal-website
-outDir: C:\Users\PC\My Angular Programs\angular-personal-website\docs
+outDir: >-
+  C:\Users\PC\My Angular
+  Programs\angular-personal-website\docs\angular-personal-website
 handle404: ''
 allowErrorCollect: false

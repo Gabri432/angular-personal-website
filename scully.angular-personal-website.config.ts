@@ -7,8 +7,7 @@ const blogTopics = [
     '/angular-personal-website/blogs/gaming',
     '/angular-personal-website/blogs/music',
     '/angular-personal-website/blogs/sport',
-    '/angular-personal-website/blogs/programming',
-    '/angular-personal-website/blogs/all'
+    '/angular-personal-website/blogs/programming'
 ];
 
 const blogPostTitles = [
@@ -23,7 +22,7 @@ export const config: ScullyConfig = {
   projectRoot: './src',
   projectName: 'angular-personal-website',
   distFolder: './dist/angular-personal-website', // output directory of your Angular build artifacts
-  outDir: './docs', // directory for scully build artifacts
+  outDir: './docs/angular-personal-website', // directory for scully build artifacts
   defaultPostRenderers: [],
   routes: {},
   extraRoutes: [
