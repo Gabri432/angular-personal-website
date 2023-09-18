@@ -55,6 +55,7 @@ export class BlogDisplayerComponent {
   }
 
   displayPostByRoute(): void {
+    document.querySelector("link[rel='canonical']")!.setAttribute("href", "https://gabri432.github.io" + location.pathname);
     if (window.location.pathname.includes("/blogs/")) {
       const chosenOption = window.location.pathname.replace("/angular-personal-website/blogs/", "");
       if (chosenOption != "all") {

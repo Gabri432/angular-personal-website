@@ -54,6 +54,7 @@ export class BlogComponent {
     for (let blog of blogs) {
       let blogTitle: string = blog.link.split("/")[3]; 
       if (blogTitle == title) {
+        this.changeURLcanonical();
         return blog;
       }
     }
@@ -75,6 +76,10 @@ export class BlogComponent {
     }
     text = text!.concat(";\nscript-src 'self' 'sha512-" + environment.nonce + "'"); 
     document.querySelector("meta[http-equiv='Content-Security-Policy']" )!.setAttribute("content", text!);
+  }
+
+  changeURLcanonical(): void {
+    document.querySelector("link[rel='canonical']")!.setAttribute("href", "https://gabri432.github.io" + location.pathname);
   }
 
 }
