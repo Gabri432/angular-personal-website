@@ -40,5 +40,13 @@ export const blogs: Array<BlogPost> = [
       author: "Gabriele Gatti",
       topics: ["angular", "programming", "web-development"],
       link: "/blog/programming/why-i-love-angular"
+    },
+    {
+      id: 6,
+      title: "Why Boom Beach is better than Clash of Clans",
+      description: "Describing the reasons why I think Boom Beach is superior than Clash of Clans.",
+      author: "Gabriele Gatti",
+      topics: ["gaming", "boom beach", "clash of clans"],
+      link: "/blog/gaming/why-boom-beach-is-better-than-clash-of-clans"
     }
   ]
