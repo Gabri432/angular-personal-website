@@ -7,10 +7,10 @@ import { BlogDisplayerComponent } from './routes/blog/sub-components/blog-displa
 
 const routes: Routes = [
   {path: '', component: HomeComponent, title: 'About Gabriele Gatti'},
-  {path: 'projects', component: MyProjectsComponent, title: 'My Projects'},
-  {path: 'blogs', component: BlogDisplayerComponent, title: 'My Blogs'},
-  {path: 'blogs/:topic', component: BlogDisplayerComponent, title: 'My Blogs'},
-  {path: 'blog/:topic/:title', component: BlogComponent, title: 'My Blogs'},
+  {path: 'projects/.', component: MyProjectsComponent, title: 'My Projects'},
+  {path: 'blogs/.', component: BlogDisplayerComponent, title: 'My Blogs'},
+  {path: 'blogs/:topic/.', component: BlogDisplayerComponent, title: 'My Blogs'},
+  {path: 'blog/:topic/:title/.', component: BlogComponent, title: 'My Blogs'},
   {path: '**', component: HomeComponent},
 ];
 
