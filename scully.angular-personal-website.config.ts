@@ -2,20 +2,20 @@ import { ScullyConfig } from '@scullyio/scully';
 
 
 const blogTopics = [
-    '/blogs/stories',
-    '/blogs/education',
-    '/blogs/gaming',
-    '/blogs/music',
-    '/blogs/sport',
-    '/blogs/programming'
+    '/blogs/stories/',
+    '/blogs/education/',
+    '/blogs/gaming/',
+    '/blogs/music/',
+    '/blogs/sport/',
+    '/blogs/programming/'
 ];
 
 const blogPostTitles = [
-    '/blog/education/university-or-not',
-    '/blog/stories/this-is-my-story',
-    '/blog/stories/italy-is-not-for-young-people',
-    '/blog/programming/why-i-love-angular',
-    '/blog/sport/italian-basketball-team-journey'
+    '/blog/education/university-or-not/',
+    '/blog/stories/this-is-my-story/',
+    '/blog/stories/italy-is-not-for-young-people/',
+    '/blog/programming/why-i-love-angular/',
+    '/blog/sport/italian-basketball-team-journey/'
 ];
 
 export const config: ScullyConfig = {
@@ -24,11 +24,20 @@ export const config: ScullyConfig = {
   distFolder: './dist/angular-personal-website', // output directory of your Angular build artifacts
   outDir: './docs', // directory for scully build artifacts
   defaultPostRenderers: [],
-  routes: {},
+  routes: {
+    '/projects/': {
+      type: 'contentFolder',
+      postRenderers: ['seoHrefOptimize'],
+    },
+    '/blogs/': {
+      type: 'contentFolder',
+      postRenderers: ['seoHrefOptimize'],
+    }
+  },
   extraRoutes: [
     '/',
-    '/blogs',
-    '/projects',
+    '/blogs/',
+    '/projects/',
     ...blogTopics,
     ...blogPostTitles
   ],
