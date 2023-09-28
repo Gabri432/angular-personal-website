@@ -12,54 +12,58 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://gabri432.github.io/angular-personal-website/projects</loc>
+  <loc>https://gabri432.github.io/angular-personal-website/projects/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://gabri432.github.io/angular-personal-website/blogs</loc>
+  <loc>https://gabri432.github.io/angular-personal-website/blogs/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://gabri432.github.io/angular-personal-website/blogs/programming</loc>
+  <loc>https://gabri432.github.io/angular-personal-website/blogs/programming/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://gabri432.github.io/angular-personal-website/blogs/sport</loc>
+  <loc>https://gabri432.github.io/angular-personal-website/blogs/sport/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://gabri432.github.io/angular-personal-website/blogs/education</loc>
+  <loc>https://gabri432.github.io/angular-personal-website/blogs/education/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://gabri432.github.io/angular-personal-website/blogs/stories</loc>
+  <loc>https://gabri432.github.io/angular-personal-website/blogs/stories/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://gabri432.github.io/angular-personal-website/blogs/gaming</loc>
+  <loc>https://gabri432.github.io/angular-personal-website/blogs/gaming/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://gabri432.github.io/angular-personal-website/blogs/music</loc>
+  <loc>https://gabri432.github.io/angular-personal-website/blogs/music/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://gabri432.github.io/angular-personal-website/blog/stories/this-is-my-story</loc>
+  <loc>https://gabri432.github.io/angular-personal-website/blog/stories/this-is-my-story/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://gabri432.github.io/angular-personal-website/blog/stories/italy-is-not-for-young-people</loc>
+  <loc>https://gabri432.github.io/angular-personal-website/blog/stories/italy-is-not-for-young-people/</loc>
   <priority>0.80</priority>
 </url><url>
-  <loc>https://gabri432.github.io/angular-personal-website/blog/education/university-or-not</loc>
+  <loc>https://gabri432.github.io/angular-personal-website/blog/education/university-or-not/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://gabri432.github.io/angular-personal-website/blog/sport/italian-basketball-team-journey</loc>
+  <loc>https://gabri432.github.io/angular-personal-website/blog/sport/italian-basketball-team-journey/</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://gabri432.github.io/angular-personal-website/blog/programming/why-i-love-angular</loc>
+  <loc>https://gabri432.github.io/angular-personal-website/blog/programming/why-i-love-angular/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gabri432.github.io/angular-personal-website/blog/gaming/why-boom-beach-is-better-than-clash-of-clans/</loc>
   <priority>0.80</priority>
 </url>
 
