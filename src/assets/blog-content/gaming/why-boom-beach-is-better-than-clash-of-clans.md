@@ -1,6 +1,6 @@
 # Why Boom Beach is better than Clash of Clans... 
 <br /><br />
-<span class="date">Date: 16th of September 2023.</span><br />
+<span class="date">Date: 28th of September 2023.</span><br />
 
 First, I'm not saying that Clash is bad or else. I do like Clash of Clans, infact I still play the game after years I have downloaded it (I'm a proud TH12 village by the way 😁).
 <br /><br />
