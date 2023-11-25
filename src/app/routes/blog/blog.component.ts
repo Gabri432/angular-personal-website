@@ -79,7 +79,7 @@ export class BlogComponent {
   }
 
   changeURLcanonical(): void {
-    document.querySelector("link[rel='canonical']")!.setAttribute("href", "https://angular-personal-website.pages.dev/" + location.pathname);
+    document.querySelector("link[rel='canonical']")!.setAttribute("href", "https://angular-personal-website.pages.dev" + location.pathname);
   }
 
 }
