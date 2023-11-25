@@ -55,9 +55,9 @@ export class BlogDisplayerComponent {
   }
 
   displayPostByRoute(): void {
-    document.querySelector("link[rel='canonical']")!.setAttribute("href", "https://gabri432.github.io" + location.pathname);
+    document.querySelector("link[rel='canonical']")!.setAttribute("href", "https://angular-personal-website.pages.dev/" + location.pathname);
     if (window.location.pathname.includes("/blogs/")) {
-      const chosenOption = window.location.pathname.replace("/angular-personal-website/blogs/", "").replace("/", "");
+      const chosenOption = window.location.pathname.replace("/angular-personal-website.pages.dev/blogs/", "").replace("/", "");
       if (chosenOption != "") {
         this.displayBlogs = FilterPostsService.filterBlogs(chosenOption);
       }
