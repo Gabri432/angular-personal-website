@@ -27,7 +27,7 @@ export class HomeComponent {
   changeURLcanonical(): void {
     console.log("before", document.querySelector("link[rel='canonical']")!.getAttribute("href"));
     document.querySelector("link[rel='canonical']")!.setAttribute("href", "");
-    document.querySelector("link[rel='canonical']")!.setAttribute("href", "https://gabri432.github.io/angular-personal-website/");
+    document.querySelector("link[rel='canonical']")!.setAttribute("href", "https://angular-personal-website.pages.dev/");
     console.log("after", document.querySelector("link[rel='canonical']")!.getAttribute("href"));
   }
 
