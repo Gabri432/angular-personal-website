@@ -58,6 +58,7 @@ export class BlogDisplayerComponent {
     document.querySelector("link[rel='canonical']")!.setAttribute("href", "https://angular-personal-website.pages.dev" + location.pathname);
     if (window.location.pathname.includes("/blogs/")) {
       const chosenOption = window.location.pathname.replace("/angular-personal-website.pages.dev/blogs/", "").replace("/", "");
+      console.log(chosenOption);
       if (chosenOption != "") {
         this.displayBlogs = FilterPostsService.filterBlogs(chosenOption);
       }

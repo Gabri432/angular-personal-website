@@ -39,6 +39,7 @@ export class BlogComponent {
       pathToFile = "./assets/blog-content/" + articleTopic + "/";
     }
     this.blogPost = pathToFile + articleName + '.md'; 
+    console.log(this.blogPost);
 
     if (articleName != null) {
       const blogPostRetrieved: BlogPost = this.searchPostByTitle(articleName);
