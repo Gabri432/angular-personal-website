@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "buildCloudFlare": "ng build --base-href https://gabri432.github.io/angular-personal-website/ && ngx scully"
   },
   "private": true,
   "dependencies": {
