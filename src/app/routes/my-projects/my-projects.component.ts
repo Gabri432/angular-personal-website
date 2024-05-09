@@ -53,6 +53,12 @@ export class MyProjectsComponent {
       link: "https://github.com/Gabri432/angular-personal-website", 
       languages: ["Angular", "Typescript"]
     },
+    {
+      name: "angular-cv-builder",
+      description: "A website that helps create your resume.", 
+      link: "https://angular-cv-builder.pages.dev/", 
+      languages: ["Angular", "Typescript"]
+    },
   ];
 
   otherProjects: Array<Project> = [
