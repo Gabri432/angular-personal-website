@@ -7,7 +7,8 @@ const blogTopics = [
     '/blogs/gaming/',
     '/blogs/music/',
     '/blogs/sport/',
-    '/blogs/programming/'
+    '/blogs/programming/',
+    '/blogs/politics/'
 ];
 
 const blogPostTitles = [
@@ -16,7 +17,8 @@ const blogPostTitles = [
     '/blog/stories/italy-is-not-for-young-people/',
     '/blog/programming/why-i-love-angular/',
     '/blog/sport/italian-basketball-team-journey/',
-    '/blog/gaming/why-boom-beach-is-better-than-clash-of-clans/'
+    '/blog/gaming/why-boom-beach-is-better-than-clash-of-clans/',
+    '/blogs/politics/road-to-a-minimum-salary'
 ];
 
 export const config: ScullyConfig = {

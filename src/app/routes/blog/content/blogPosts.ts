@@ -48,5 +48,13 @@ export const blogs: Array<BlogPost> = [
       author: "Gabriele Gatti",
       topics: ["gaming", "boom beach", "clash of clans"],
       link: "/blog/gaming/why-boom-beach-is-better-than-clash-of-clans"
+    },
+    {
+      id: 7,
+      title: "Road to a minimum wage",
+      description: "Analysing.",
+      author: "Gabriele Gatti",
+      topics: ["politics", "economy", "minimum wage"],
+      link: "/blog/politics/road-to-a-minimum-wage"
     }
   ]
