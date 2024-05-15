@@ -18,7 +18,7 @@ const blogPostTitles = [
     '/blog/programming/why-i-love-angular/',
     '/blog/sport/italian-basketball-team-journey/',
     '/blog/gaming/why-boom-beach-is-better-than-clash-of-clans/',
-    '/blogs/politics/road-to-a-minimum-salary'
+    '/blogs/politics/road-to-a-minimum-wage'
 ];
 
 export const config: ScullyConfig = {
