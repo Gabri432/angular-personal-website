@@ -4,5 +4,7 @@ export interface BlogPost {
     description: string,
     author: string,
     topics: string[],
-    link: string
+    link: string,
+    creationDate?: string,
+    lastUpdateDate?: string
 }
