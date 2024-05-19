@@ -9,66 +9,89 @@
 
 <url>
   <loc>https://gabri432.github.io/angular-personal-website/</loc>
+  <changefreq>monthly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://gabri432.github.io/angular-personal-website/projects/</loc>
-  <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://gabri432.github.io/angular-personal-website/blogs/</loc>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://gabri432.github.io/angular-personal-website/blogs/programming/</loc>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://gabri432.github.io/angular-personal-website/blogs/sport/</loc>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://gabri432.github.io/angular-personal-website/blogs/education/</loc>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://gabri432.github.io/angular-personal-website/blogs/stories/</loc>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://gabri432.github.io/angular-personal-website/blogs/gaming/</loc>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://gabri432.github.io/angular-personal-website/blogs/music/</loc>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://gabri432.github.io/angular-personal-website/blog/stories/this-is-my-story/</loc>
-  <priority>0.80</priority>
+  <lastmod>2023-09-02</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://gabri432.github.io/angular-personal-website/blog/stories/italy-is-not-for-young-people/</loc>
-  <priority>0.80</priority>
+  <lastmod>2023-09-09</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
 </url><url>
   <loc>https://gabri432.github.io/angular-personal-website/blog/education/university-or-not/</loc>
-  <priority>0.80</priority>
+  <lastmod>2023-09-28</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://gabri432.github.io/angular-personal-website/blog/sport/italian-basketball-team-journey/</loc>
-  <priority>0.80</priority>
+  <lastmod>2023-09-28</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://gabri432.github.io/angular-personal-website/blog/programming/why-i-love-angular/</loc>
-  <priority>0.80</priority>
+  <lastmod>2023-09-28</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://gabri432.github.io/angular-personal-website/blog/gaming/why-boom-beach-is-better-than-clash-of-clans/</loc>
-  <priority>0.80</priority>
+  <lastmod>2023-09-28</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://gabri432.github.io/angular-personal-website/blog/politics/road-to-a-minimum-wage/</loc>
-  <priority>0.80</priority>
+  <lastmod>2024-05-15</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
 </url>
 
 
