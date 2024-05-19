@@ -93,7 +93,22 @@ export class MyProjectsComponent {
     if (window.location.pathname.includes("/projects")) {
       this.projects.push(...this.otherProjects);
       this.displayProjects = this.projects;
+      this.changeJSONLDSchema();
     }
+  }
+
+  changeJSONLDSchema(): void {
+    const scriptElement = document.querySelector("script[type='application/ld+json']") as HTMLScriptElement;
+    const parsedJSON = JSON.parse(scriptElement.textContent!);
+    parsedJSON.headline = "Personal Website of Gabriele Gatti";
+    parsedJSON.author = "{ '@type': 'Person', 'name': 'Gabriele Gatti'}";
+    parsedJSON.publisher = "{ '@type': 'Person', 'name': 'Gabriele Gatti'}";
+    parsedJSON.description = "Collection of coding projects made by Gabriele Gatti.";
+    parsedJSON.mainEntityOfPage['@id'] = "https://gabri432.github.io/angular-personal-website/projects";
+    const script = document.createElement('script');
+    script.setAttribute('type', 'application/ld+json');
+    script.textContent = JSON.stringify(parsedJSON);
+    document.head.appendChild(script);
   }
 
 }
