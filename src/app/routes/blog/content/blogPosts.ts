@@ -52,7 +52,7 @@ export const blogs: Array<BlogPost> = [
     {
       id: 7,
       title: "Road to a minimum wage",
-      description: "Analysing.",
+      description: "Analysing some key problems related to setting a minimum wage.",
       author: "Gabriele Gatti",
       topics: ["politics", "economy", "minimum wage"],
       link: "/blog/politics/road-to-a-minimum-wage"
