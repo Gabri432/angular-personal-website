@@ -25,10 +25,24 @@ export class HomeComponent {
   }
 
   changeURLcanonical(): void {
-    console.log("before", document.querySelector("link[rel='canonical']")!.getAttribute("href"));
     document.querySelector("link[rel='canonical']")!.setAttribute("href", "");
     document.querySelector("link[rel='canonical']")!.setAttribute("href", "https://gabri432.github.io/angular-personal-website/");
-    console.log("after", document.querySelector("link[rel='canonical']")!.getAttribute("href"));
+    this.changeJSONLDSchema();
+  }
+
+  changeJSONLDSchema(): void {
+    const scriptElement = document.querySelector("script[type='application/ld+json']") as HTMLScriptElement;
+    const parsedJSON = JSON.parse(scriptElement.textContent!);
+    parsedJSON.headline = "Personal Website of Gabriele Gatti";
+    parsedJSON.author = "{ '@type': 'Person', 'name': 'Gabriele Gatti'}";
+    parsedJSON.publisher = "{ '@type': 'Person', 'name': 'Gabriele Gatti'}";
+    parsedJSON.description = "Gabriele Gatti personal website made with angular, to showcase my coding projects and blog posts.";
+    parsedJSON.mainEntityOfPage['@id'] = "https://gabri432.github.io/angular-personal-website/";
+    console.log(parsedJSON)
+    const script = document.createElement('script');
+    script.setAttribute('type', 'application/ld+json');
+    script.textContent = JSON.stringify(parsedJSON);
+    document.head.appendChild(script);
   }
 
 }

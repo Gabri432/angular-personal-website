@@ -45,6 +45,7 @@ export class BlogComponent {
       document.querySelector("meta[name='keywords']" )!.setAttribute("content", blogPostRetrieved.topics.toString());
       document.querySelector("meta[name='description']" )!.setAttribute("content", blogPostRetrieved.description);
       document.title = blogPostRetrieved.title || "My Blog";
+      this.changeJSONLDSchema(blogPostRetrieved);
     }
     
 
@@ -80,6 +81,21 @@ export class BlogComponent {
 
   changeURLcanonical(): void {
     document.querySelector("link[rel='canonical']")!.setAttribute("href", "https://gabri432.github.io" + location.pathname);
+  }
+
+  changeJSONLDSchema(currentBlogPost: BlogPost): void {
+    const scriptElement = document.querySelector("script[type='application/ld+json']") as HTMLScriptElement;
+    const parsedJSON = JSON.parse(scriptElement.textContent!);
+    parsedJSON.headline = currentBlogPost.title;
+    parsedJSON.author = "{ '@type': 'Person', 'name': 'Gabriele Gatti'}";
+    parsedJSON.publisher = "{ '@type': 'Person', 'name': 'Gabriele Gatti'}";
+    parsedJSON.description = currentBlogPost.description;
+    parsedJSON.mainEntityOfPage['@id'] = "https://gabri432.github.io" + location.pathname;
+    console.log(parsedJSON)
+    const script = document.createElement('script');
+    script.setAttribute('type', 'application/ld+json');
+    script.textContent = JSON.stringify(parsedJSON);
+    document.head.appendChild(script);
   }
 
 }
