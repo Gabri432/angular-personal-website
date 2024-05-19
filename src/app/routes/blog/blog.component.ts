@@ -91,7 +91,6 @@ export class BlogComponent {
     parsedJSON.publisher = "{ '@type': 'Person', 'name': 'Gabriele Gatti'}";
     parsedJSON.description = currentBlogPost.description;
     parsedJSON.mainEntityOfPage['@id'] = "https://gabri432.github.io" + location.pathname;
-    console.log(parsedJSON)
     const script = document.createElement('script');
     script.setAttribute('type', 'application/ld+json');
     script.textContent = JSON.stringify(parsedJSON);

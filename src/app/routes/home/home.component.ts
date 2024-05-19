@@ -38,7 +38,6 @@ export class HomeComponent {
     parsedJSON.publisher = "{ '@type': 'Person', 'name': 'Gabriele Gatti'}";
     parsedJSON.description = "Gabriele Gatti personal website made with angular, to showcase my coding projects and blog posts.";
     parsedJSON.mainEntityOfPage['@id'] = "https://gabri432.github.io/angular-personal-website/";
-    console.log(parsedJSON)
     const script = document.createElement('script');
     script.setAttribute('type', 'application/ld+json');
     script.textContent = JSON.stringify(parsedJSON);
