@@ -70,5 +70,15 @@ export const blogs: Array<BlogPost> = [
       link: "/blog/politics/road-to-a-minimum-wage",
       creationDate: "2024-05-15",
       lastUpdateDate: "2024-05-15"
+    },
+    {
+      id: 7,
+      title: "The best games of my life",
+      description: "Reviewing some of my favourite games that I used to play in my childhood, and later...",
+      author: "Gabriele Gatti",
+      topics: ["games", "childhood", "old but gold"],
+      link: "/blog/gaming/the-best-games-of-my-life",
+      creationDate: "2024-05-21",
+      lastUpdateDate: "2024-05-21"
     }
   ]
