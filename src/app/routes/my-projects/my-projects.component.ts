@@ -98,6 +98,7 @@ export class MyProjectsComponent {
   }
 
   changeJSONLDSchema(): void {
+    (document.querySelector("script[type='application/ld+json']") as HTMLScriptElement).remove();
     const structuredData = {
       "@context": "http://schema.org",
       "@type": "CollectionPage",
