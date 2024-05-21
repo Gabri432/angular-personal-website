@@ -84,7 +84,7 @@ export class BlogComponent {
   }
 
   changeJSONLDSchema(currentBlogPost: BlogPost): void {
-    const scriptElement = document.querySelector("script[type='application/ld+json']") as HTMLScriptElement;
+    (document.querySelector("script[type='application/ld+json']") as HTMLScriptElement).remove();
     //const parsedJSON = JSON.parse(scriptElement.textContent!);
     const structuredData = {
       "@context": "https://schema.org",
@@ -93,7 +93,7 @@ export class BlogComponent {
         "@type": "WebPage",
         "@id": "https://gabri432.github.io" + location.pathname
       },
-      "headline": "Personal Website of Gabriele Gatti",
+      "headline": currentBlogPost.title,
       "datePublished": currentBlogPost.creationDate+"T08:00:00+00:00",
       "dateModified": currentBlogPost.lastUpdateDate+"T09:20:00+00:00",
       "author": {
