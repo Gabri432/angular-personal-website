@@ -85,15 +85,38 @@ export class BlogComponent {
 
   changeJSONLDSchema(currentBlogPost: BlogPost): void {
     const scriptElement = document.querySelector("script[type='application/ld+json']") as HTMLScriptElement;
-    const parsedJSON = JSON.parse(scriptElement.textContent!);
+    //const parsedJSON = JSON.parse(scriptElement.textContent!);
+    const structuredData = {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://gabri432.github.io" + location.pathname
+      },
+      "headline": "Personal Website of Gabriele Gatti",
+      "datePublished": currentBlogPost.creationDate+"T08:00:00+00:00",
+      "dateModified": currentBlogPost.lastUpdateDate+"T09:20:00+00:00",
+      "author": {
+        "@type": "Person",
+        "name": "Gabriele Gatti"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Gabriele Gatti"
+      },
+      "description": currentBlogPost.description
+    }
+    /*
     parsedJSON.headline = currentBlogPost.title;
     parsedJSON.author = "{ '@type': 'Person', 'name': 'Gabriele Gatti'}";
     parsedJSON.publisher = "{ '@type': 'Person', 'name': 'Gabriele Gatti'}";
     parsedJSON.description = currentBlogPost.description;
     parsedJSON.mainEntityOfPage['@id'] = "https://gabri432.github.io" + location.pathname;
+    */
     const script = document.createElement('script');
     script.setAttribute('type', 'application/ld+json');
-    script.textContent = JSON.stringify(parsedJSON);
+    //script.textContent = JSON.stringify(parsedJSON);
+    script.textContent = JSON.stringify(structuredData);
     document.head.appendChild(script);
   }
 
