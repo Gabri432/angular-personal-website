@@ -98,16 +98,51 @@ export class MyProjectsComponent {
   }
 
   changeJSONLDSchema(): void {
-    const scriptElement = document.querySelector("script[type='application/ld+json']") as HTMLScriptElement;
-    const parsedJSON = JSON.parse(scriptElement.textContent!);
-    parsedJSON.headline = "Personal Website of Gabriele Gatti";
-    parsedJSON.author = "{ '@type': 'Person', 'name': 'Gabriele Gatti'}";
-    parsedJSON.publisher = "{ '@type': 'Person', 'name': 'Gabriele Gatti'}";
-    parsedJSON.description = "Collection of coding projects made by Gabriele Gatti.";
-    parsedJSON.mainEntityOfPage['@id'] = "https://gabri432.github.io/angular-personal-website/projects";
+    const structuredData = {
+      "@context": "http://schema.org",
+      "@type": "CollectionPage",
+      "mainEntity": [
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "TypoChecker.java",
+          "description": "A Java program that, given a typo, will suggest the closest matching words.",
+          "codeRepository": "https://github.com/Gabri432/java-unimi/blob/master/random_programs/TypoChecker.java"
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "RelationSet.java",
+          "description": "A Java program that classifies the property of a given mathematical set.",
+          "codeRepository": "https://github.com/Gabri432/java-unimi/blob/master/random_programs/RelationSet.java"
+        }, 
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "CommandLine.java",
+          "description": "A Java program that simulates the behavior of a command line to perform simple math operations.",
+          "codeRepository": "https://github.com/Gabri432/java-unimi/blob/master/random_programs/CommandLine.java"
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "equation-solver",
+          "description": "A program written in Go that can solve any linear, quadratic or cubic equation.",
+          "codeRepository": "https://github.com/Gabri432/equation-solver"
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "gophysics",
+          "description": "A library written in Go that contains a list of several famous Physics formula to make calculations.",
+          "codeRepository": "https://github.com/Gabri432/gophysics"
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "name": "angular-cv-builder",
+          "description": "A website that helps create your resume.",
+          "url": "https://angular-cv-builder.pages.dev/"
+        }
+      ]
+    }    
     const script = document.createElement('script');
     script.setAttribute('type', 'application/ld+json');
-    script.textContent = JSON.stringify(parsedJSON);
+    script.textContent = JSON.stringify(structuredData);
     document.head.appendChild(script);
   }
 

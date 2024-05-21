@@ -31,16 +31,43 @@ export class HomeComponent {
   }
 
   changeJSONLDSchema(): void {
-    const scriptElement = document.querySelector("script[type='application/ld+json']") as HTMLScriptElement;
-    const parsedJSON = JSON.parse(scriptElement.textContent!);
-    parsedJSON.headline = "Personal Website of Gabriele Gatti";
-    parsedJSON.author = "{ '@type': 'Person', 'name': 'Gabriele Gatti'}";
-    parsedJSON.publisher = "{ '@type': 'Person', 'name': 'Gabriele Gatti'}";
-    parsedJSON.description = "Gabriele Gatti personal website made with angular, to showcase my coding projects and blog posts.";
-    parsedJSON.mainEntityOfPage['@id'] = "https://gabri432.github.io/angular-personal-website/";
+    const structuredData = {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "https://gabri432.github.io/angular-personal-website/",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "https://gabri432.github.io/angular-personal-website/",
+              "name": "Home page of Gabriele Gatti personal website, Welcome!"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@id": "https://gabri432.github.io/angular-personal-website/projects",
+              "name": "Page of all the coding projects made by Gabriele Gatti, Welcome!"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@id": "https://gabri432.github.io/angular-personal-website/blogs",
+              "name": "Page of all blog posts made by Gabriele Gatti, Welcome!"
+            }
+          }
+        ]
+      }
+    }
     const script = document.createElement('script');
     script.setAttribute('type', 'application/ld+json');
-    script.textContent = JSON.stringify(parsedJSON);
+    script.textContent = JSON.stringify(structuredData);
     document.head.appendChild(script);
   }
 
