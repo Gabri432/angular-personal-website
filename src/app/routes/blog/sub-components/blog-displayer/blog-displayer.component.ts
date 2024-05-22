@@ -20,6 +20,8 @@ export class BlogDisplayerComponent {
 
   optionBar: string[] = [...topics];
 
+  colors: Array<string> = ['red', 'orange', 'yellow', 'green', 'blue', 'pink', 'purple'];
+
   constructor(private router: Router) {
     this.router.events.subscribe(() => {
       this.displayPostByRoute();
@@ -66,5 +68,12 @@ export class BlogDisplayerComponent {
 
   changeRoute(route: string) {
     window.location.href = "/angular-personal-website" + route + '/.';
+  }
+
+  getTopic(topics: string[]): string {
+    for (let topic of topics) {
+      if (this.optionBar.includes(topic)) return topic;
+    }
+  return "";
   }
 }

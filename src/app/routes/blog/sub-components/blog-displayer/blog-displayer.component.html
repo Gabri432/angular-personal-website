@@ -1,12 +1,12 @@
 <div id="container">
     <h2>My blogs</h2>
     <div id="blog-options">
-        <a class="option" routerLink="/blogs/{{option}}/." *ngFor="let option of optionBar">{{option}} </a>
+        <a class="option" routerLink="/blogs/{{option}}/." *ngFor="let option of optionBar" id="{{colors[optionBar.indexOf(option)]}}">{{option}} </a>
     </div>
     <div id="blog-grid">
         <div id="blog-displayer" *ngFor="let blog of displayBlogs">
             <a [routerLink]="'/'+ blog.link + '/.'" (click)="changeRoute(blog.link)">
-                <div class="image"></div>
+                <div class="image" id="image-{{colors[optionBar.indexOf(this.getTopic(blog.topics))]}}"></div>
                 <div class="title">{{blog.title}}</div>
                 <div class="topics">
                 <span *ngFor="let topic of blog.topics">#{{topic}}<br /></span>

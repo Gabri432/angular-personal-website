@@ -76,7 +76,7 @@ export const blogs: Array<BlogPost> = [
       title: "The best games of my life",
       description: "Reviewing some of my favourite games that I used to play in my childhood, and later...",
       author: "Gabriele Gatti",
-      topics: ["games", "childhood", "old but gold"],
+      topics: ["gaming", "childhood", "old but gold"],
       link: "/blog/gaming/the-best-games-of-my-life",
       creationDate: "2024-05-21",
       lastUpdateDate: "2024-05-21"
@@ -86,7 +86,7 @@ export const blogs: Array<BlogPost> = [
       title: "The power of free time",
       description: "Free time, when used properly, is the most powerful thing you can have. Here are some tips to making the best use of it.",
       author: "Gabriele Gatti",
-      topics: ["free time", "power", "activities"],
+      topics: ["free time", "power", "stories"],
       link: "/blog/stories/the-power-of-free-time",
       creationDate: "2024-05-22",
       lastUpdateDate: "2024-05-22"
