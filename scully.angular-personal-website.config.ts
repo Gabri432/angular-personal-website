@@ -19,7 +19,8 @@ const blogPostTitles = [
     '/blog/sport/italian-basketball-team-journey/',
     '/blog/gaming/why-boom-beach-is-better-than-clash-of-clans/',
     '/blog/politics/road-to-a-minimum-wage',
-    '/blog/gaming/the-best-games-of-my-life'
+    '/blog/gaming/the-best-games-of-my-life',
+    '/blog/stories/the-power-of-free-time/'
 ];
 
 export const config: ScullyConfig = {

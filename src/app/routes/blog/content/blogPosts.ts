@@ -72,7 +72,7 @@ export const blogs: Array<BlogPost> = [
       lastUpdateDate: "2024-05-15"
     },
     {
-      id: 7,
+      id: 8,
       title: "The best games of my life",
       description: "Reviewing some of my favourite games that I used to play in my childhood, and later...",
       author: "Gabriele Gatti",
@@ -80,5 +80,15 @@ export const blogs: Array<BlogPost> = [
       link: "/blog/gaming/the-best-games-of-my-life",
       creationDate: "2024-05-21",
       lastUpdateDate: "2024-05-21"
+    },
+    {
+      id: 9,
+      title: "The power of free time",
+      description: "Free time, when used properly, is the most powerful thing you can have. Here are some tips to making the best use of it.",
+      author: "Gabriele Gatti",
+      topics: ["free time", "power", "activities"],
+      link: "/blog/stories/the-power-of-free-time",
+      creationDate: "2024-05-22",
+      lastUpdateDate: "2024-05-22"
     }
   ]
