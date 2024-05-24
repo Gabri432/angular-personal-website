@@ -1,5 +1,29 @@
 <div id="footer">
-    <div id="my-name">
-        Developed by Gabriele Gatti - 2023
+    <div id="upper-footer">
+        <div id="my-about">
+            <h5>More about me</h5>
+            <nav>
+                <a routerLink="/blog/stories/this-is-my-story/" title="This is me, this is my story!">About Gabriele Gatti</a>
+            </nav>
+        </div>
+        <div id="quick-links">
+            <h5>Quick links</h5>
+            <nav>
+                <a [routerLink]="['']" title="Go to Home page">Home</a>
+                <a routerLink="/projects/."  title="Check out my best projects!">My Projects</a>
+                <a routerLink="/blogs/." title="Check out my blog!">My Blog</a>
+            </nav>
+        </div>
+    </div>
+    <div id="lower-footer">
+        <div id="my-socials">
+            <nav>
+                <a href="https://www.linkedin.com/in/gabriele-gatti-87b321190/" title="Go to my Linkedin profile"><i class="fa fa-linkedin-square"></i></a>
+                <a href="https://github.com/Gabri432" title="Go to my Github profile"><i class="fa fa-github-square"></i></a>
+            </nav>
+        <div>
+        <div id="copyright">
+            &copy; 2024 Gabriele Gatti
+        </div>
     </div>
 </div>
