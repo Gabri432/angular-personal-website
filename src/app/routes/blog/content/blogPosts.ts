@@ -90,5 +90,15 @@ export const blogs: Array<BlogPost> = [
       link: "/blog/stories/the-power-of-free-time",
       creationDate: "2024-05-22",
       lastUpdateDate: "2024-05-22"
+    },
+    {
+      id: 10,
+      title: "What programming language you should learn",
+      description: "What programming language is the best for you? What if you pick the wrong language? Is it easy or hard? I'm going to break down all the steps that will lead to the right choice.",
+      author: "Gabriele Gatti",
+      topics: ["programming", "languages", "learn"],
+      link: "/blog/programming/what-programming-language-you-should-learn",
+      creationDate: "2024-05-25",
+      lastUpdateDate: "2024-05-25"
     }
   ]
