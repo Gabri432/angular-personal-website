@@ -105,6 +105,12 @@
   <changefreq>monthly</changefreq>
   <priority>0.70</priority>
 </url>
+<url>
+  <loc>https://gabri432.github.io/angular-personal-website/blog/programming/what-programming-language-you-should-learn/</loc>
+  <lastmod>2024-05-22</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
 
 
 </urlset>
