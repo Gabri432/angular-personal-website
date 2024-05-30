@@ -21,7 +21,8 @@ const blogPostTitles = [
     '/blog/politics/road-to-a-minimum-wage',
     '/blog/gaming/the-best-games-of-my-life',
     '/blog/stories/the-power-of-free-time/',
-    '/blog/programming/what-programming-language-you-should-learn/'
+    '/blog/programming/what-programming-language-you-should-learn/',
+    '/blog/sport/why-less-nba-games-is-good/'
 ];
 
 export const config: ScullyConfig = {

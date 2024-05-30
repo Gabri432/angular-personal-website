@@ -100,5 +100,17 @@ export const blogs: Array<BlogPost> = [
       link: "/blog/programming/what-programming-language-you-should-learn",
       creationDate: "2024-05-25",
       lastUpdateDate: "2024-05-25"
+    },
+    /*
+    {
+      id: 11,
+      title: "Why less nba games is good",
+      description: "NBA regular season games feel meaningless, but fewer of them could bring many benefit for the league. Here I explain why.",
+      author: "Gabriele Gatti",
+      topics: ["nba", "league", "sport"],
+      link: "/blog/sport/why-less-nba-games-is-good",
+      creationDate: "2024-05-28",
+      lastUpdateDate: "2024-05-28"
     }
+    */
   ]

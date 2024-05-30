@@ -4,7 +4,7 @@
         <a class="option" routerLink="/blogs/{{option}}/." *ngFor="let option of optionBar" id="{{colors[optionBar.indexOf(option)]}}">{{option}} </a>
     </div>
     <div id="blog-grid">
-        <div id="blog-displayer" *ngFor="let blog of displayBlogs">
+        <div id="blog-displayer" *ngFor="let blog of displayBlogs.reverse()">
             <a [routerLink]="'/'+ blog.link + '/.'" (click)="changeRoute(blog.link)">
                 <div class="image" id="image-{{colors[optionBar.indexOf(this.getTopic(blog.topics))]}}"></div>
                 <div class="title">{{blog.title}}</div>
