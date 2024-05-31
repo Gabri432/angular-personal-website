@@ -111,6 +111,16 @@ export const blogs: Array<BlogPost> = [
       link: "/blog/sport/why-less-nba-games-is-good",
       creationDate: "2024-05-28",
       lastUpdateDate: "2024-05-28"
-    }
+    },
     */
+    {
+      id: 13,
+      title: "What is the best renewable energy source?",
+      description: "In this article I'm going to analyze and compare the most common types of renewable energy sources, such as Solar energy, Wind energy and Hydro energy.",
+      author: "Gabriele Gatti",
+      topics: ["renewable energy", "green energy", "clean energy", "education"],
+      link: "/blog/education/what-is-the-best-renewable-energy",
+      creationDate: "2024-05-31",
+      lastUpdateDate: "2024-05-31"
+    }
   ]
