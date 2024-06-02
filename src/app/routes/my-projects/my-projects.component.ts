@@ -52,40 +52,16 @@ export class MyProjectsComponent {
       description: "A personal website (this one you are using) made with the Angular framework (16+).", 
       link: "https://github.com/Gabri432/angular-personal-website", 
       languages: ["Angular", "Typescript"]
-    },
+    }
+  ];
+
+  otherProjects: Array<Project> = [
     {
       name: "angular-cv-builder",
       description: "A website that helps create your resume.", 
       link: "https://angular-cv-builder.pages.dev/", 
       languages: ["Angular", "Typescript"]
     }
-  ];
-
-  otherProjects: Array<Project> = [
-    {
-      name: "empty project", 
-      description: "empty project description.", 
-      link: "empty project link", 
-      languages: ["None"]
-    },
-    {
-      name: "empty project", 
-      description: "empty project description.", 
-      link: "empty project link", 
-      languages: ["None"]
-    },
-    {
-      name: "empty project", 
-      description: "empty project description.", 
-      link: "empty project link", 
-      languages: ["None"]
-    },
-    {
-      name: "empty project", 
-      description: "empty project description.", 
-      link: "empty project link", 
-      languages: ["None"]
-    },
   ]
 
   ngOnInit() {
