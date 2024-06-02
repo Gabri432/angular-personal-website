@@ -19,7 +19,7 @@ Oblivion offers an immersive character development, with skills to learn, guilds
 But to me, best part of this game was the <strong>music</strong>.
 <br /><br />
 The music really matched the atmosphere of the game. It fits perfectly to every situation.<br />
-Wheter you enter a city, starts a fight or just wonder across the Cyrodill, the music really helped making this game a <strong>true gem</strong>.
+Whether you enter a city, starts a fight or just wonder across the Cyrodill, the music really helped making this game a <strong>true gem</strong>.
 <br /><br />
 
 ## Simcity 4

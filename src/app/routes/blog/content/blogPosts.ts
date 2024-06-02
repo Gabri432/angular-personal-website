@@ -9,7 +9,7 @@ export const blogs: Array<BlogPost> = [
       topics: ["about-me", "hi", "stories"],
       link: "/blog/stories/this-is-my-story",
       creationDate: "2023-09-02",
-      lastUpdateDate: "2023-09-02"
+      lastUpdateDate: "2024-06-02"
     },
     {
       id: 2,
@@ -29,7 +29,7 @@ export const blogs: Array<BlogPost> = [
       topics: ["basketball", "sport", "world-cup", "FIBA"],
       link: "/blog/sport/italian-basketball-team-journey",
       creationDate: "2023-09-05",
-      lastUpdateDate: "2023-09-05"
+      lastUpdateDate: "2024-06-02"
     },
     {
       id: 4,
@@ -39,7 +39,7 @@ export const blogs: Array<BlogPost> = [
       topics: ["stories", "italy", "young people"],
       link: "/blog/stories/italy-is-not-for-young-people",
       creationDate: "2023-09-09",
-      lastUpdateDate: "2023-09-09"
+      lastUpdateDate: "2024-06-02"
     },
     {
       id: 5,
@@ -121,6 +121,6 @@ export const blogs: Array<BlogPost> = [
       topics: ["renewable energy", "green energy", "clean energy", "education"],
       link: "/blog/education/what-is-the-best-renewable-energy",
       creationDate: "2024-05-31",
-      lastUpdateDate: "2024-05-31"
+      lastUpdateDate: "2024-06-02"
     }
   ]

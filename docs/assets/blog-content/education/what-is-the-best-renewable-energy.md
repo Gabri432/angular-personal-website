@@ -6,7 +6,7 @@
 
 Climate change has never been a greater global concern than in recent years. While more extreme wheater and climate events are becoming more frequent by time, it is also becoming essential to work on finding alternative and <strong>cleaner ways to produce energy</strong>.
 <br /><br />
-In this article I'm going to analyze and compare some of the most common renewable energy sources, like Solar energy, Wind energy, Hydro energy, and help deciding wheter one is the best choice for a specific scenario.
+In this article I'm going to analyze and compare some of the most common renewable energy sources, like Solar energy, Wind energy, Hydro energy, and help deciding whether one is the best choice for a specific scenario.
 <br />
 <strong>Let's dive in!</strong> 
 
