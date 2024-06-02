@@ -1,8 +1,8 @@
 # What is the best renewable energy source?
-<br />
 
 <span class="date"> Date: 31th of May 2024 </span>
 <br />
+<span class="date">Last Update on: 2nd of June 2024.</span><br />
 
 Climate change has never been a greater global concern than in recent years. While more extreme wheater and climate events are becoming more frequent by time, it is also becoming essential to work on finding alternative and <strong>cleaner ways to produce energy</strong>.
 <br /><br />
@@ -27,7 +27,7 @@ There is still an upfront cost to face for the installation of solar panels, the
 Another aspect to consider is the average amount of <strong>Solar exposition</strong>. Some areas on Earth receive more sunlight than others.<br />
 This becomes more clear to understand if we compare countries alongside the equator compared to those closer to the <strong>Artic Circle</strong>.<br /> For those of the last group there can be periods of several months without sunlight. This means that on this period it is impossible to collect solar energy.
 <br />
-Solar panels also are <strong>not immune to wheater conditions</strong>, like hail, snow, lighting strikes, and rapid temperature changes, that can effect the integrity and so the efficiency of them.
+Solar panels also are <strong>not immune to weather conditions</strong>, like hail, snow, lighting strikes, and rapid temperature changes, that can effect the integrity and so the efficiency of them.
 <br />
 To produce a lot solar energy, there is the need to build a lot of solar panels, which results in a high land-use, that may be not ideal for areas that don't offer much free room.
 <br />
@@ -66,7 +66,7 @@ Hydroelectric power plants generally have long lifespans with low operating cost
 <br />
 As water is often stored in large quantity with the use of dams, it is also <strong>highly reliable</strong> and easy to regulate based on the demand with the use of various flood control systems.<br />
 It is a particulary effective energy source in those regions of Earth that offer frequent precipitations and access to large bodies of water such as rivers.<br />
-Due to the use of dams, it is less susceptive by daily wheater.
+Due to the use of dams, it is less susceptive by daily weather.
 
 ## Cons
 Compared to the other energy sources, it is the <strong>most environmentally disruptive</strong>, due to the construction of dams that heavily change water distribution in a region, and so effecting local flora and fauna.
@@ -88,7 +88,7 @@ While this blog mainly focus on comparing the three most popular energy resource
 ## To sum up
 
 <br />
-At the end of the day there is nothing like the perfect "one fits for all" solution. Every renewable energy source has strengths and weaknesses, and ideally every country should thrive for a combination of all them to benefit the most.
+At the end of the day there is nothing like the perfect "one fits for all" solution. Every renewable energy source has strengths and weaknesses, and ideally every country should aim towards a combination of all them to benefit the most.
 
 
 Main sources: Wikipedia, Earth.org, researches also with ChatGPT.

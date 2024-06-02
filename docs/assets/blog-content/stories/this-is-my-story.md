@@ -1,11 +1,12 @@
 # How did I get to this... 
 <br /><br />
 <span class="date">Date: 2nd of September 2023.</span><br />
+<span class="date">Last Update on: 2nd of June 2024.</span><br />
 
 I've never really been interested in programming until a 3 years ago... when a certain virus decided to escape from a lab in China and to freak up the world for a while.
 
-Until then I had never written even a single line of code. The only thing related to programming was... playing games...<br>
-But all of a sudden I had a lot of free time, and because I was stuck at home I got so bored that I decide to use a mobile app that teaches programming.
+Until then, I had never written even a single line of code. The only thing related to programming was... playing games...<br>
+But all of a sudden I had a lot of free time, and, due to being stuck at home, I got so bored that I decide to use a mobile app that teaches programming.
 
 That app was already installed several months ago but only then I decided to use it for the first time... and that was the birth... of a new programmer.
 
@@ -22,7 +23,7 @@ I remember going through the course with exciment after completing every section
 
 ## And then CSS and JavaScript...
 So yes, after navigating through CSS with ease, JavaScript was my first programming language. (Yes I know, it's a scripting language...yada yada yada...)<br /><br />
-I remember writing my first functions and even learning the JQuery library. I switched from making simple animations with HTML and CSS to try to replicate some small programs that actually have a porpuse.
+I remember writing my first functions and even learning the JQuery library. I switched from making simple animations with HTML and CSS to try to replicate some small programs that actually have a purpose.
 <br /><br />
 A small currency converter, replicating some websites, making even a small game... I became so proficient in a couple of months that I was convinced that maybe that could have been my career path.
 <br />
@@ -46,7 +47,7 @@ And eventually... it did work.
 <br />
 
 ## beSharp...
-Oh yeah, my first day of work. I was excited knowing that for the next six months I would have had an intership with this company after 2 online meetings and last one on that office.
+Oh yeah, my first day of work. I was excited knowing that for the next six months I would have had an intership with this company after 2 online meetings and last one at the headquartes.
 <br /><br />
 Those six months were the best period of my life. I had amazing colleagues, amazing working enviroment, and many interesting tools to put my hands on. I was really keen on always coming to office and I was really passionate about what I was doing.
 <br />
@@ -60,7 +61,7 @@ At the end of the intership, my bosses suggest me that my best move should be to
 <br /><br />
 In my Bachelor journey I have gathered a lot of friends and I got to know more in depth how computers work. Concepts like Operating Systems, Algorithms, CPU became so much clear and my passion for programming became a passion for Computer Science.
 <br /><br />
-I got also to know more in depth Java, and I am surprise about much I ended up liking it.
+I got also to know more in depth Java, and I am surprised about much I ended up liking it.
 <br />
 In the upcoming last two academic semesters I will get to know how computers comunicate to each others and what are the foundations of the Internet!
 
@@ -68,9 +69,9 @@ In the upcoming last two academic semesters I will get to know how computers com
 <br />
 
 ## And now?
-And now I am here, waiting to start my last bachelor year, creating from the ground up my personal website with the intent of mastering Angular so that I could be really proficient in a future working environment.
+And now I am here, waiting to finish my last bachelor year, creating from the ground up my personal website with the intent of mastering Angular so that I could be really proficient in a future working environment.
 <br />
-I thought that a blog was going to be the ideal project because it allows me to talk to what I like the most, and having a small space for me on the big sea of the Internet.
+I thought that a blog was going to be the ideal project because it allows me to talk to what I like the most, and having a small space for me in the big sea of the Internet.
 <br /><br />
 Hope you enjoyed my first blog. See you!
 
