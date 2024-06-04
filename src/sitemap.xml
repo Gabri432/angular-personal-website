@@ -53,6 +53,11 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://gabri432.github.io/angular-personal-website/blogs/politics/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://gabri432.github.io/angular-personal-website/blog/stories/this-is-my-story/</loc>
   <lastmod>2024-06-02</lastmod>
   <changefreq>monthly</changefreq>
