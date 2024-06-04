@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Gabriele Gatti's personal website</title>
+    <link>https://gabri432.github.io/angular-personal-website/</link>
+    <description>Personal website of Gabriele Gatti made with Angular 16+.</description>
+    <language>en-us</language>
+    <lastBuildDate>2024-06-02</lastBuildDate>
+    <item>
+      <title>About Gabriele Gatti</title>
+      <link>https://gabri432.github.io/angular-personal-website/</link>
+      <description>Home page of the website</description>
+      <language>en-us</language>
+      <pubDate>2023-09-02</pubDate>
+      <lastBuildDate>2024-06-02</lastBuildDate>
+    </item>
+    <item>
+      <title>My Projects</title>
+      <link>https://gabri432.github.io/angular-personal-website/projects/</link>
+      <description>Page showcasing projects</description>
+      <language>en-us</language>
+      <pubDate>2023-09-02</pubDate>
+    </item>
+    <item>
+      <title>My Blogs</title>
+      <link>https://gabri432.github.io/angular-personal-website/blogs/</link>
+      <description>Page containing blog posts</description>
+      <language>en-us</language>
+      <pubDate>2023-09-02</pubDate>
+      <lastBuildDate>2024-06-02</lastBuildDate>
+    </item>
+    <item>
+      <title>Blogs about programming</title>
+      <link>https://gabri432.github.io/angular-personal-website/blogs/programming/</link>
+      <description>This section contains blog posts related to programming.</description>
+      <language>en-us</language>
+      <pubDate>2023-09-02</pubDate>
+      <lastBuildDate>2024-06-02</lastBuildDate>
+    </item>
+    <item>
+      <title>Blogs about sport</title>
+      <link>https://gabri432.github.io/angular-personal-website/blogs/sport/</link>
+      <description>This section contains blog posts related to sport.</description>
+      <language>en-us</language>
+      <pubDate>2023-09-02</pubDate>
+    </item>
+    <item>
+      <title>Blogs about education</title>
+      <link>https://gabri432.github.io/angular-personal-website/blogs/education/</link>
+      <description>This section contains blog posts related to education.</description>
+      <language>en-us</language>
+      <pubDate>2023-09-02</pubDate>
+      <lastBuildDate>2024-06-02</lastBuildDate>
+    </item>
+    <item>
+      <title>Blogs about personal stories</title>
+      <link>https://gabri432.github.io/angular-personal-website/blogs/stories/</link>
+      <description>This section contains blog posts related to personal stories.</description>
+      <language>en-us</language>
+      <pubDate>2023-09-02</pubDate>
+      <lastBuildDate>2024-06-02</lastBuildDate>
+    </item>
+    <item>
+      <title>Blogs about gaming</title>
+      <link>https://gabri432.github.io/angular-personal-website/blogs/gaming/</link>
+      <description>This section contains blog posts related to gaming.</description>
+      <language>en-us</language>
+      <pubDate>2023-09-02</pubDate>
+      <lastBuildDate>2024-06-02</lastBuildDate>
+    </item>
+    <item>
+      <title>Blogs about politics</title>
+      <link>https://gabri432.github.io/angular-personal-website/blogs/politics/</link>
+      <description>This section contains blog posts related to politics.</description>
+      <language>en-us</language>
+      <pubDate>2023-09-02</pubDate>
+      <lastBuildDate>2024-06-02</lastBuildDate>
+    </item>
+    <item>
+      <title>Specific Blog Title</title>
+      <link>https://gabri432.github.io/angular-personal-website/blog/stories/this-is-my-story/</link>
+      <description>Specific blog post</description>
+      <language>en-us</language>
+      <pubDate>2023-09-02</pubDate>
+      <lastBuildDate>2024-06-02</lastBuildDate>
+    </item>
+    <item>
+      <title>University or not?</title>
+      <link>https://gabri432.github.io/angular-personal-website/blog/education/university-or-not/</link>
+      <description>Discussing the pros and cons of attending a university</description>
+      <language>en-us</language>
+      <pubDate>2023-09-03</pubDate>
+      <lastBuildDate>2024-06-02</lastBuildDate>
+    </item>
+    <item>
+      <title>Specific Blog Title</title>
+      <link>https://gabri432.github.io/angular-personal-website/blog/gaming/why-boom-beach-is-better-than-clash-of-clans/</link>
+      <description>Specific blog post</description>
+      <language>en-us</language>
+      <pubDate>2023-09-28</pubDate>
+    </item>
+    <item>
+      <title>Specific Blog Title</title>
+      <link>https://gabri432.github.io/angular-personal-website/blog/politics/road-to-a-minimum-wage/</link>
+      <description>Specific blog post</description>
+      <language>en-us</language>
+      <pubDate>2024-05-15</pubDate>
+    </item>
+    <item>
+      <title>Specific Blog Title</title>
+      <link>https://gabri432.github.io/angular-personal-website/blog/stories/the-power-of-free-time/</link>
+      <description>Specific blog post</description>
+      <language>en-us</language>
+      <pubDate>2024-05-21</pubDate>
+    </item>
+    <item>
+      <title>Specific Blog Title</title>
+      <link>https://gabri432.github.io/angular-personal-website/blog/programming/what-programming-language-you-should-learn/</link>
+      <description>Specific blog post</description>
+      <language>en-us</language>
+      <pubDate>2024-05-25</pubDate>
+    </item>
+    <item>
+      <title>Specific Blog Title</title>
+      <link>https://gabri432.github.io/angular-personal-website/blog/education/what-is-the-best-renewable-energy/</link>
+      <description>Specific blog post</description>
+      <language>en-us</language>
+      <pubDate>2024-05-31</pubDate>
+      <lastBuildDate>2024-06-02</lastBuildDate>
+    </item>
+    
+  </channel>
+</rss>
