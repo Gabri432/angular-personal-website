@@ -1,6 +1,6 @@
 ## Why less NBA games is good?
 <br /><br />
-<span class="date">Date: 28 th of May 2024.</span><br />
+<span class="date">Date: 28 th of May 2024</span><br />
 
 NBA games during the regular season feel meaningless, and I believe the main reason is the number of them.<br />
 In this article I'm going to breakdown the benefits of reducing the length of the season.

@@ -1,6 +1,6 @@
 ## The power of free time
 <br /><br />
-<span class="date">Date: 21th of May 2024.</span><br />
+<span class="date">Date: 21th of May 2024</span><br />
 
 We tend to spend more and more time attached to the <strong>phone</strong>.<br />
 On average I used to spend more than <strong>4 hours per day</strong> on Youtube and other social media when I have free time.<br />

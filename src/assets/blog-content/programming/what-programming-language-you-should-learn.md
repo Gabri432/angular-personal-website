@@ -1,6 +1,6 @@
 ## What programming language should you learn?
 <br /><br />
-<span class="date">Date: 25th of May 2024.</span><br />
+<span class="date">Date: 25th of May 2024</span><br />
 
 First time into programming? Never heard of Java, C# or web development? Afraid of having regrets or making the wrong choice? <strong>Don't worry!</strong><br />
 In this blog post I'm going to help you navigating through this amazing yet complex world that is Programming.

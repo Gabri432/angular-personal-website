@@ -2,7 +2,7 @@
 <br /><br />
 
 <span class="date"> Date: 5th of September 2023 </span> <br />
-<span class="date">Last Update on: 2nd of June 2024.</span><br /><br />
+<span class="date">Last Update on: 2nd of June 2024</span><br /><br />
 And at last Italy got defeated 63-100 to the USA. <br />
 
 I've watched the Italian basketball team with a lot of joy during the 2023 FIBA World Cup, and once they reached the quarter-finals I would lie if I tell you that, for a while, I was thinking that Italy could have managed **to even reach the final**.<br />

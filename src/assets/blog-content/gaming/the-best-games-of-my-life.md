@@ -1,6 +1,6 @@
 # The best games of my life... 
 <br /><br />
-<span class="date">Date: 21th of May 2024.</span><br />
+<span class="date">Date: 21th of May 2024</span><br />
 <br />
 Sometimes games are just more than a way to be engaged and find entertainment. Sometimes they give you the <strong>best memories</strong> of your life.
 <br /><br />

@@ -1,7 +1,7 @@
 # How did I get to this... 
 <br /><br />
 <span class="date">Date: 2nd of September 2023.</span><br />
-<span class="date">Last Update on: 2nd of June 2024.</span><br />
+<span class="date">Last Update on: 2nd of June 2024</span><br />
 
 I've never really been interested in programming until a 3 years ago... when a certain virus decided to escape from a lab in China and to freak up the world for a while.
 

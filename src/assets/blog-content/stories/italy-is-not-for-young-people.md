@@ -1,7 +1,7 @@
 # Italy is not for young people
 <br /><br />
 <span class="date">Date: 9th of September 2023.</span><br />
-<span class="date">Last Update on: 2nd of June 2024.</span><br />
+<span class="date">Last Update on: 2nd of June 2024</span><br />
 
 **48 years**.<br />
 This is the average age of the Italian population, as of today. There are more people going to retirement than students attending school.<br /><br />

@@ -2,7 +2,7 @@
 
 <span class="date"> Date: 31th of May 2024 </span>
 <br />
-<span class="date">Last Update on: 2nd of June 2024.</span><br />
+<span class="date">Last Update on: 2nd of June 2024</span><br />
 
 Climate change has never been a greater global concern than in recent years. While more extreme wheater and climate events are becoming more frequent by time, it is also becoming essential to work on finding alternative and <strong>cleaner ways to produce energy</strong>.
 <br /><br />

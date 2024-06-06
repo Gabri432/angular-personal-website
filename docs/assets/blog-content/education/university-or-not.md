@@ -3,7 +3,7 @@
 
 <span class="date"> Date: 3rd of September 2023 </span>
 <br />
-<span class="date">Last Update on: 2nd of June 2024.</span><br />
+<span class="date">Last Update on: 2nd of June 2024</span><br />
 
 Maybe you have just finished high school, or maybe you already have some working experience. Whatever is your current situation, you may have been asking yourself recently if the university is the right path for you or not. After all, this is a big leap that will occupy the next years of your life.<br /><br />
 
