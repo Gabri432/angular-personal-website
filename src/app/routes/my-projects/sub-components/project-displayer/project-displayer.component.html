@@ -1,8 +1,9 @@
 <div id="project-displayer">
-    <a href="{{proj.link}}" target="_blank" title="Visit the project on Github">
-        <div id="name">{{proj.name}}</div>
+    <a href="{{proj.link}}" target="_blank" title="View the project">
+        <div id="name" class="project-{{proj.languages[0]}}">{{proj.name}}</div>
         <div id="description">{{proj.description}}</div>
         <br />
         <div id="languages">#{{proj.languages}}</div>
+        <!--{{languages[optionBar.indexOf(this.getTopic(blog.topics))]}}-->
     </a>
 </div>
