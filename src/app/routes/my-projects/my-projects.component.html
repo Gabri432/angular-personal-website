@@ -1,5 +1,8 @@
 <div id="project-section">
     <h2>My projects</h2>
+    <div id="project-options" *ngIf="this.pathName">
+        <a class="option" (click)="filterProjects(option)" *ngFor="let option of optionBar" class="project-{{optionBar[optionBar.indexOf(option)]}}">{{option}} </a>
+    </div>
     <div id="project-grid">
         <div *ngFor="let project of displayProjects">
             <app-project-displayer [proj]="project"></app-project-displayer>

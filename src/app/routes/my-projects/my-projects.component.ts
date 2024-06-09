@@ -1,5 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { Project } from './models/project';
+import { languages } from './content/project-languages';
+import { mainProjects, extraProjects } from '../my-projects/content/projects';
 
 @Component({
   selector: 'app-my-projects',
@@ -10,66 +12,28 @@ export class MyProjectsComponent {
 
   @Input() displayProjects: Array<Project> = []
 
-  projects: Array<Project> = [
-    {
-      name: "TypoChecker.java", 
-      description: "A Java program that, given a typo, will suggest the closest matching words.", 
-      link: "https://github.com/Gabri432/java-unimi/blob/master/random_programs/TypoChecker.java", 
-      languages: ["Java"]
-    },
-    {
-      name: "RelationSet.java", 
-      description: "A Java program that classifies the property of a given mathematical set.",
-      link: "https://github.com/Gabri432/java-unimi/blob/master/random_programs/RelationSet.java", 
-      languages: ["Java"]
-    },
-    {
-      name: "CommandLine.java", 
-      description: "A Java program that simulates the behavior of a command line to perform simple math operations.", 
-      link: "https://github.com/Gabri432/java-unimi/blob/master/random_programs/CommandLine.java",
-      languages: ["Java"]
-    },
-    {
-      name: "equation-solver", 
-      description: "A program written in Go that can solve any linear, quadratic or cubic equation.", 
-      link: "https://github.com/Gabri432/equation-solver", 
-      languages: ["Go"]
-    },
-    {
-      name: "gophysics", 
-      description: "A library written in Go that contains a list of several famous Physics formula to make calculations.", 
-      link: "https://github.com/Gabri432/gophysics", 
-      languages: ["Go"]
-    },
-    {
-      name: "LaplaceExpansion", 
-      description: "A program written in Go to calculate the determinant of 3x3 and 4x4 matrices using the Laplace Theorem.", 
-      link: "https://github.com/Gabri432/LaplaceExpansion", 
-      languages: ["Go"]
-    },
-    {
-      name: "angular-personal-website",
-      description: "A personal website (this one you are using) made with the Angular framework (16+).", 
-      link: "https://github.com/Gabri432/angular-personal-website", 
-      languages: ["Angular", "Typescript"]
-    }
-  ];
 
-  otherProjects: Array<Project> = [
-    {
-      name: "angular-cv-builder",
-      description: "A website that helps create your resume.", 
-      link: "https://angular-cv-builder.pages.dev/", 
-      languages: ["Angular", "Typescript"]
-    }
-  ]
+  optionBar: string[] = [...languages];
+  pathName = "";
 
   ngOnInit() {
-    this.displayProjects = this.projects;
+    this.displayProjects = [...mainProjects];
     if (window.location.pathname.includes("/projects")) {
-      this.projects.push(...this.otherProjects);
-      this.displayProjects = this.projects;
+      this.pathName = "projects";
+      this.displayProjects.push(...extraProjects);
       this.changeJSONLDSchema();
+    }
+    if (this.displayProjects.length == mainProjects.length) {
+      console.log("Error")
+    }
+  }
+
+  filterProjects(language: string) {
+    this.displayProjects = [];
+    for (const project of [...mainProjects, ...extraProjects]) {
+      if (project.languages.includes(language)) {
+        this.displayProjects.push(project);
+      }
     }
   }
 
