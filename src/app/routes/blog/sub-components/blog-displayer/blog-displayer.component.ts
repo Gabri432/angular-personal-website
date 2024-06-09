@@ -41,7 +41,7 @@ export class BlogDisplayerComponent {
   }
 
   limitPostsToShow(amount: number): void {
-    for (let blog of blogs) {
+    for (let blog of blogs.reverse()) {
       if (this.displayBlogs.length > amount) {
         break;
       }
