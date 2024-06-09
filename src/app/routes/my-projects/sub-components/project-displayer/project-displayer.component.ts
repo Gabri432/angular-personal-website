@@ -9,20 +9,11 @@ import { Project } from '../../models/project';
 export class ProjectDisplayerComponent {
     @Input() proj!: Project;
 
-    languages: Array<string> = ['Angular', 'Java', 'Javascript', 'Go']
-
     ngOnInit(): void {
       document.querySelector("meta[name='keywords']" )!.setAttribute("content", "Gabriele Gatti, Gabriele, Gabri432");
       document.querySelector("meta[name='description']" )!.setAttribute("content", "A personal website and blog made with Angular 16+ by Gabriele Gatti");
       if (location.pathname.includes("projects")) {
         document.querySelector("link[rel='canonical']")!.setAttribute("href", "https://gabri432.github.io/angular-personal-website/projects/");
       }
-    }
-
-    getLanguage(languages: string[]): string {
-      for (let language of languages) {
-        //if (this.languages.includes(language)) return topic;
-      }
-    return "";
     }
 }
