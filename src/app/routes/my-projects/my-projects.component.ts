@@ -23,9 +23,6 @@ export class MyProjectsComponent {
       this.displayProjects.push(...extraProjects);
       this.changeJSONLDSchema();
     }
-    if (this.displayProjects.length == mainProjects.length) {
-      console.log("Error")
-    }
   }
 
   filterProjects(language: string) {
