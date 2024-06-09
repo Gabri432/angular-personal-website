@@ -8,6 +8,7 @@
             <a [routerLink]="'/'+ blog.link + '/.'" (click)="changeRoute(blog.link)">
                 <div class="image" id="image-{{colors[optionBar.indexOf(this.getTopic(blog.topics))]}}"></div>
                 <div class="title">{{blog.title}}</div>
+                <div class="date">{{blog.lastUpdateDate}}</div>
                 <div class="topics">
                 <span *ngFor="let topic of blog.topics">#{{topic}}<br /></span>
             </div>
