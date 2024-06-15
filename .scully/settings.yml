@@ -4,8 +4,8 @@ staticPort: 1668
 reloadPort: 2667
 hostName: localhost
 projectName: angular-personal-website
-homeFolder: C:\Users\PC\My Angular Programs\angular-personal-website
+homeFolder: C:\Users\gabri\My Angular Programs\angular-personal-website
 distFolder: ./dist/angular-personal-website
-outDir: C:\Users\PC\My Angular Programs\angular-personal-website\docs
+outDir: C:\Users\gabri\My Angular Programs\angular-personal-website\docs
 handle404: ''
 allowErrorCollect: false
