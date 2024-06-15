@@ -22,6 +22,33 @@
             margin: 3px;
         }
     }
+    #my-skills-section {
+        width: 60%;
+        margin-left: 20%;
+        margin-bottom: 10vh;
+
+        h2 {
+            color: grey;
+            font-size: 34px;
+        }
+
+        #hard-skills {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+            .skill {
+                border: 1px solid rgb(226, 225, 225);
+                width: 88%;
+                margin-bottom: 1%;
+                margin-left: 6%;
+                height: 100px;
+                border-radius: 5px;
+                text-align: center;
+                padding-top: 50px;
+                font-size: 22px;
+            }
+        }
+    }
 
     #more-me {
         margin-top: 10%;
@@ -32,6 +59,9 @@
             text-align: left;
             font-size: 20px;
             line-height: 1.5;
+        }
+        a {
+            text-decoration: none;
         }
 
         h2 {
@@ -59,6 +89,26 @@
         #more-me {
             width: 80%;
             margin-left: 10%;
+        }
+
+        #my-skills-section {
+            width: 80%;
+            margin-left: 10%;
+
+            #hard-skills {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+    
+                .skill {
+                    width: 88%;
+                    margin-bottom: 1%;
+                    margin-left: 6%;
+                    height: 60px;
+                    border-radius: 5px;
+                    text-align: center;
+                    padding-top: 30px;
+                }
+            }
         }
     }
 }
