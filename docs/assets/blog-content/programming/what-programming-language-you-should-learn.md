@@ -1,6 +1,8 @@
 ## What programming language should you learn?
-<br /><br />
-<span class="date">Date: 25th of May 2024</span><br />
+<br />
+<span class="date">Date: 25th of May 2024</span>
+<br />
+<span class="date">Last Update on: 20th of June 2024</span><br />
 
 First time into programming? Never heard of Java, C# or web development? Afraid of having regrets or making the wrong choice? <strong>Don't worry!</strong><br />
 In this blog post I'm going to help you navigating through this amazing yet complex world that is Programming.
@@ -9,10 +11,10 @@ In this blog post I'm going to help you navigating through this amazing yet comp
 
 ## There is no wrong choice
 
-Let's start from the big one.<br /> Unless you are looking for <a href="https://en.wikipedia.org/wiki/Esoteric_programming_language" target="_blank">Esoteric languages</a>, which programming language you end up choosing will still open plenty of job opportunities if this is of your concern. 
+Let's start from the big one.<br /> Unless you are looking for <a href="https://en.wikipedia.org/wiki/Esoteric_programming_language" target="_blank">Esoteric languages</a>, which programming language you end up choosing will still open plenty of job opportunities. if this is your main concern. 
 <br /><br />
-By visiting popular job related platforms like Linkedin and Indeed you will finding <strong>thousand job posts</strong> for any programming language.<br />
-Of course some of them may have more posts than other, but this won't impact your ability to find a job.<br /><br />
+By visiting popular work related platforms, like Linkedin and Indeed, you will find <strong>thousands of job offers</strong> for any programming language.<br />
+While some language may have more, this won't impact your ability to start a career.<br /><br />
 <strong>Every programming language is good</strong>.
 
 <br />
@@ -31,8 +33,8 @@ The good thing is that <strong>Internet provides a lot of free and detailed educ
 Another popular question, or rather concern, is the amount of programming languages. How many of them you should learn?<br />
 The more the better right? Well, not really.
 <br /><br />
-The reality is that every programming language can be so vast and complex that probably one or two will be already a lot.<br />
-Knowing a programming language doesn't just mean knowing the syntax and be able to write simple programs, but it is also about being familiar with more advanced concepts such as programming principles, patterns, best practices, and also some libraries or even frameworks.
+The reality is that every programming language can be so vast and complex that probably one or two would be already a lot.<br />
+Knowing one doesn't just mean knowing the syntax and be able to write simple programs, but it is also about being familiar with more advanced concepts such as programming principles, patterns, best practices, and also some libraries or even frameworks.
 <br /><br />
 That's why most of the times is far more reasonable to <strong>specialize</strong> your knowledge into a single or couple of programming languages.
 <br />
